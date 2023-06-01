@@ -1,0 +1,435 @@
+/*  Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.mi-input::-webkit-input-placeholder {
+  color: #adb5bd;
+}
+
+.quitarcolorenlaces {
+  color: transparent;
+}
+
+.backgroundmain {
+  background-color: #F9F9F9;
+}
+
+.bggriscolorterciario {
+  background-color: #E2E2E2;
+}
+
+.border-circular {
+  border-radius: 100%;
+}
+
+.colorinput {
+  color: #adb5bd;
+}
+
+.colorpurpura {
+  color: #9e005d;
+}
+
+.bgcuponnav {
+  background-color: #E7E7E7;
+}
+
+.bgmain {
+  background-color: #F9F9F9;
+}
+
+.bgredsecundary {
+  background-color: #F7E7E9;
+}
+
+.bgsecundario {
+  background-color: #EEEEEE;
+}
+
+.bgblue {
+  background-color: #00ABD0 !important;
+}
+
+.grissecundario {
+  color: #6F6F6F;
+}
+
+.grissubtitulos {
+  color: #787878;
+}
+
+.bacgroundsecundario {
+  background-color: #EEEEEE;
+}
+
+.colorprimary {
+  color: hsl(0, 100%, 50%) !important;
+}
+
+.textcolorpurpura {
+  color: rgb(160, 7, 98);
+}
+
+.bacgroundpurpura {
+  background-color: rgb(160, 7, 98) !important;
+}
+
+.bgred {
+  background-color: hsl(0, 100%, 50%) !important;
+}
+
+.justifytext {
+  text-align: justify;
+}
+
+.fontsmall {
+  font-size: 0.625rem !important;
+}
+
+.font-medium {
+  font-size: 1.125rem !important;
+}
+
+.fontsnormalsmall {
+  font-size: 0.875rem;
+}
+
+.fontbig {
+  font-size: 2.375rem;
+}
+
+.fontsubtitle {
+  font-size: 1.25rem;
+}
+
+.fontverysmall {
+  font-size: 0.75rem;
+}
+
+.fontcard {
+  font-size: 0.938rem;
+}
+
+.t-fs-g {
+  font-size: 4rem;
+}
+
+.posicion_body {
+  position: absolute;
+  top: 90%;
+}
+
+.scroll {
+  height: 5em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.positioncupon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bordercupon {
+  border-left: 2px dashed #FF0000;
+}
+
+.boderbutton {
+  border-color: #9e005d !important;
+}
+
+.altodeseparador {
+  min-height: 2em;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: transparent;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slidedos {
+  text-align: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inputfoucus:focus {
+  border-color: #86b7fe;
+  border-color: var(--bs-form-invalid-border-color);
+  box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb), 0.25);
+  border: #FF0000 solid 1px;
+}
+
+.form-check-input:checked {
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+
+.responsivetextcuponcompra {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .responsivetextcuponcompra {
+    font-size: 1rem;
+  }
+}
+
+.textocupon {
+  font-size: 1rem;
+  margin-top: 1.125rem !important;
+}
+@media (min-width: 992px) {
+  .textocupon {
+    font-size: 1.875rem;
+  }
+}
+
+.cambiodecolor {
+  color: white;
+}
+@media (min-width: 1200px) {
+  .cambiodecolor {
+    color: #000;
+  }
+}
+
+.textocuponprecio {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .textocuponprecio {
+    font-size: 1.25rem;
+  }
+}
+
+.textocuponvalido {
+  font-size: 0.75rem;
+}
+@media (min-width: 992px) {
+  .textocuponvalido {
+    font-size: 1.125rem;
+  }
+}
+
+.textobannercupon {
+  font-size: 1.4rem;
+  margin-top: 1.5rem !important;
+}
+@media (min-width: 768px) {
+  .textobannercupon {
+    font-size: 2rem;
+  }
+}
+
+.textomiscompras {
+  font-size: 0.75rem;
+}
+@media (min-width: 992px) {
+  .textomiscompras {
+    font-size: 1.125rem;
+  }
+}
+
+.estilotextoprecio {
+  text-decoration: line-through;
+  color: #6F6F6F;
+}
+@media (min-width: 768px) {
+  .estilotextoprecio {
+    text-decoration: none;
+    color: rgb(160, 7, 98);
+  }
+}
+
+.textcolorcybermarket {
+  color: #FF0000;
+}
+@media (min-width: 1200px) {
+  .textcolorcybermarket {
+    color: #000;
+  }
+}
+
+.descripcionresponsive {
+  background-color: transparent;
+}
+@media (min-width: 1200px) {
+  .descripcionresponsive {
+    background-color: #FF0000;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.textdescripcionresponsive {
+  color: #FF0000;
+}
+@media (min-width: 1200px) {
+  .textdescripcionresponsive {
+    color: white;
+  }
+}
+
+.garantiaresponsive {
+  color: black;
+  background-color: transparent;
+}
+@media (min-width: 1200px) {
+  .garantiaresponsive {
+    color: white;
+    background-color: white;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.activebtncolor:first-child:active {
+  background-color: var(--bs-btn-active-bg);
+  border-color: black;
+  border: 2px solid black;
+}
+
+.activebtntalla:first-child:active {
+  background-color: var(--bs-btn-active-bg);
+  border-color: #FF0000;
+  border: 2px solid #FF0000;
+}
+
+.barranavegacion {
+  border: none;
+}
+@media (min-width: 1200px) {
+  .barranavegacion {
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+}
+
+.borderblwhite {
+  border-color: #F7E7E9 !important;
+}
+@media (min-width: 1200px) {
+  .borderblwhite {
+    border-color: black !important;
+  }
+}
+
+.cambiodebg {
+  background-color: hsl(0, 100%, 50%);
+}
+@media (min-width: 1200px) {
+  .cambiodebg {
+    background-color: #F7E7E9;
+  }
+}
+
+.bonus-free {
+  position: relative;
+  overflow: hidden;
+}
+.bonus-free .free {
+  z-index: 10;
+  width: 335px;
+  height: 32px;
+  padding: 0 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  box-shadow: 0px 2px 5px #888888;
+  background: #FF0000;
+  border-top: 5px solid #FF0000;
+  border-bottom: 5px solid #FF0000;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(318deg);
+  position: absolute;
+  right: -26%;
+  top: 32%;
+}
+@media (min-width: 1400px) {
+  .bonus-free .free {
+    right: 5% !important;
+    top: 25% !important;
+  }
+}
+@media (min-width: 992px) {
+  .bonus-free .free {
+    right: -7%;
+    top: 25%;
+  }
+}
+
+.free-puntos {
+  z-index: 10;
+  width: 499px;
+  height: 32px;
+  padding: 0 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  box-shadow: 0px 2px 5px #888888;
+  background: #FF0000;
+  border-top: 5px solid #FF0000;
+  border-bottom: 5px solid #FF0000;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(33deg);
+  position: absolute;
+  right: -25%;
+  top: 32%;
+}
+
+/* Cambia el color del input range en Bootstrap */
+input[type=range]::-webkit-slider-thumb {
+  background-color: #FF0000;
+}
+input[type=range]::-webkit-slider-thumb:hover {
+  background-color: #FF0000;
+}
+
+/*# sourceMappingURL=style.css.map */

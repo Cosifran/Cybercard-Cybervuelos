@@ -1,0 +1,177 @@
+/*  Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+$color-main: hsl(0, 100%, 50%);
+$color-text-sec: rgba(160, 7, 98, 1);
+$color-blue: #00ABD0;
+$color-input: #adb5bd;
+$color-red-secundary: #F7E7E9;
+$color-sec: #EEEEEE;
+$color-gris-terc: #E2E2E2;
+$color-nav-cupon: #E7E7E7;
+$bacgraund-main: #F9F9F9;
+$color-gris: #787878;
+$color-secun-gris: #6F6F6F;
+$font-2: 2.375rem;
+$font-3: 1.25rem;
+$font-6: 0.625rem;
+$fon-5: 0.875rem;
+$fon-4: 1.125rem;
+$fon-7: 0.75rem;
+$font-card: 0.938rem;
+
+body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.mi-input::-webkit-input-placeholder {
+    color: $color-input;
+}
+.quitarcolorenlaces{
+    color: transparent;
+}
+.backgroundmain{
+    background-color: $bacgraund-main;
+}
+
+.bggriscolorterciario{
+    background-color: $color-gris-terc;
+}
+
+.border-circular {
+    border-radius: 100%;
+}
+
+
+.colorinput {
+    color: $color-input;
+}
+
+.colorpurpura{
+    color: #9e005d;
+}
+
+.bgcuponnav{
+    background-color: $color-nav-cupon;
+}
+
+.bgmain {
+    background-color: #F9F9F9;
+}
+
+.bgredsecundary{
+    background-color: $color-red-secundary;
+}
+.bgsecundario {
+    background-color: $color-sec;
+}
+
+.bgblue{
+    background-color: $color-blue !important;
+}
+
+.grissecundario {
+    color: $color-secun-gris;
+}
+
+.grissubtitulos {
+    color: $color-gris;
+}
+
+.bacgroundsecundario {
+    background-color: $color-sec;
+}
+
+.colorprimary {
+    color: $color-main !important;
+}
+
+.textcolorpurpura{
+    color: $color-text-sec;
+}
+
+.bacgroundpurpura{
+    background-color: $color-text-sec !important;
+}
+
+.bgred {
+    background-color: $color-main !important;
+}
+
+.justifytext {
+    text-align: justify;
+}
+
+.fontsmall {
+    font-size: $font-6 !important;
+}
+
+.font-medium {
+    font-size: $fon-4 !important;
+}
+
+.fontsnormalsmall {
+    font-size: $fon-5;
+}
+
+.fontbig{
+    font-size: $font-2;
+}
+
+.fontsubtitle{
+    font-size: $font-3;
+}
+
+.fontverysmall {
+    font-size: $fon-7;
+}
+
+.fontcard{
+    font-size: $font-card;
+}
+
+.t-fs-g {
+    font-size: 4rem;
+}
+
+.posicion_body {
+    position: absolute;
+    top: 90%
+}
+
+.scroll {
+    height: 5em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+  }
+
+//posision
+
+.position {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.positioncupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+//border
+.bordercupon{
+    border-left: 2px dashed #FF0000;
+}
+
+.boderbutton{
+    border-color:  #9e005d !important;
+}
+
+.altodeseparador{
+    min-height: 2em; 
+ }
