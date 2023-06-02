@@ -72,6 +72,10 @@ body {
   color: rgb(160, 7, 98);
 }
 
+.textcolorverde {
+  color: #03A691;
+}
+
 .bacgroundpurpura {
   background-color: rgb(160, 7, 98) !important;
 }

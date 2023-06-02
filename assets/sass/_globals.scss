@@ -3,6 +3,7 @@
 
 $color-main: hsl(0, 100%, 50%);
 $color-text-sec: rgba(160, 7, 98, 1);
+$color-verde: #03A691;
 $color-blue: #00ABD0;
 $color-input: #adb5bd;
 $color-red-secundary: #F7E7E9;
@@ -88,6 +89,10 @@ body {
 
 .textcolorpurpura{
     color: $color-text-sec;
+}
+
+.textcolorverde{
+    color: $color-verde;
 }
 
 .bacgroundpurpura{
