@@ -1,8 +1,8 @@
 /*  Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 
-$color-main: hsl(0, 100%, 50%);
-$color-text-sec: rgba(160, 7, 98, 1);
+$color-main: #FF0000;
+$color-text-sec: #A00762;
 $color-verde: #03A691;
 $color-blue: #00ABD0;
 $color-input: #adb5bd;
@@ -28,6 +28,39 @@ body {
 .mi-input::-webkit-input-placeholder {
     color: $color-input;
 }
+/* tamaño de fuentes */
+.font__small {
+    font-size: $font-6 !important;
+}
+
+.font__medium {
+    font-size: $fon-4 !important;
+}
+
+.font__normalsmall {
+    font-size: $fon-5;
+}
+
+.font__big{
+    font-size: $font-2;
+}
+
+.font_subtitle{
+    font-size: $font-3;
+}
+
+.font__verysmall {
+    font-size: $fon-7;
+}
+
+.font__card{
+    font-size: $font-card;
+}
+
+.t-fs-g {
+    font-size: 4rem;
+}
+
 .quitarcolorenlaces{
     color: transparent;
 }
@@ -107,37 +140,6 @@ body {
     text-align: justify;
 }
 
-.fontsmall {
-    font-size: $font-6 !important;
-}
-
-.font-medium {
-    font-size: $fon-4 !important;
-}
-
-.fontsnormalsmall {
-    font-size: $fon-5;
-}
-
-.fontbig{
-    font-size: $font-2;
-}
-
-.fontsubtitle{
-    font-size: $font-3;
-}
-
-.fontverysmall {
-    font-size: $fon-7;
-}
-
-.fontcard{
-    font-size: $font-card;
-}
-
-.t-fs-g {
-    font-size: 4rem;
-}
 
 .posicion_body {
     position: absolute;

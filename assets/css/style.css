@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 body {
@@ -6,6 +7,39 @@ body {
 
 .mi-input::-webkit-input-placeholder {
   color: #adb5bd;
+}
+
+/* tamaño de fuentes */
+.font__small {
+  font-size: 0.625rem !important;
+}
+
+.font__medium {
+  font-size: 1.125rem !important;
+}
+
+.font__normalsmall {
+  font-size: 0.875rem;
+}
+
+.font__big {
+  font-size: 2.375rem;
+}
+
+.font_subtitle {
+  font-size: 1.25rem;
+}
+
+.font__verysmall {
+  font-size: 0.75rem;
+}
+
+.font__card {
+  font-size: 0.938rem;
+}
+
+.t-fs-g {
+  font-size: 4rem;
 }
 
 .quitarcolorenlaces {
@@ -65,11 +99,11 @@ body {
 }
 
 .colorprimary {
-  color: hsl(0, 100%, 50%) !important;
+  color: #FF0000 !important;
 }
 
 .textcolorpurpura {
-  color: rgb(160, 7, 98);
+  color: #A00762;
 }
 
 .textcolorverde {
@@ -77,47 +111,15 @@ body {
 }
 
 .bacgroundpurpura {
-  background-color: rgb(160, 7, 98) !important;
+  background-color: #A00762 !important;
 }
 
 .bgred {
-  background-color: hsl(0, 100%, 50%) !important;
+  background-color: #FF0000 !important;
 }
 
 .justifytext {
   text-align: justify;
-}
-
-.fontsmall {
-  font-size: 0.625rem !important;
-}
-
-.font-medium {
-  font-size: 1.125rem !important;
-}
-
-.fontsnormalsmall {
-  font-size: 0.875rem;
-}
-
-.fontbig {
-  font-size: 2.375rem;
-}
-
-.fontsubtitle {
-  font-size: 1.25rem;
-}
-
-.fontverysmall {
-  font-size: 0.75rem;
-}
-
-.fontcard {
-  font-size: 0.938rem;
-}
-
-.t-fs-g {
-  font-size: 4rem;
 }
 
 .posicion_body {
