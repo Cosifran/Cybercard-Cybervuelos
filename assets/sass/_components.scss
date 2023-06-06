@@ -281,6 +281,29 @@ input[type="range"]::-webkit-slider-thumb {
   }
 }
 
+.scroll {
+  height: 5em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.font{
+
+  &__modal--title{
+    font-size: 1.5rem;
+  }
+
+  &__modal--text-big{
+    font-size: 1.875rem;
+  }
+
+  &__modal--text-small{
+    font-size: 0.688rem;
+  }
+}
+
 
 
 
