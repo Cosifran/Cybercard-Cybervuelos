@@ -160,7 +160,6 @@ body {
 
 body {
   background: transparent;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -191,6 +190,18 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.swiper-slide:nth-child(1n) {
+  width: 95%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 95%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 95%;
 }
 
 .inputfoucus:focus {
@@ -430,11 +441,21 @@ input[type=range]::-webkit-slider-thumb:hover {
   background-color: #FF0000;
 }
 
+/* Cambia el color del swiper del modal de opciones */
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px)) !important;
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px)) !important;
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: hsl(0, 100%, 50%) !important;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+
 .scroll {
-  height: 5em;
+  height: 100%;
   line-height: 1em;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   width: 100%;
 }
 
