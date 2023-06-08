@@ -326,6 +326,46 @@ input[type="range"]::-webkit-slider-thumb {
   }
 }
 
+/* posicion del btn de vuelo */ 
+
+.posicion__btn--vuelo{
+  position: static;
+
+  @media (min-width: 1200px){
+    position: absolute;
+  }
+}
+
+.tvuelo{
+
+  &__borders{
+    &--colorpurpure{
+      border-bottom: solid 1px globals.$color-text-sec !important;
+    }
+
+    &--colorgreen{
+      border-bottom: solid 1px globals.$color-verde !important;
+    }
+  }
+
+  &__text{
+    &--footer{
+      font-size: 0.75rem;
+
+      @media (min-width: 992px){
+        font-size: 1rem;
+      }
+    }
+    
+    &--aggequipaje{
+      font-size: globals.$fon-5;
+
+      @media (min-width: 992px){
+        font-size: globals.$font-3;
+      }
+    }
+  }
+}
 
 
 

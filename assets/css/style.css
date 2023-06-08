@@ -469,4 +469,37 @@ input[type=range]::-webkit-slider-thumb:hover {
   font-size: 0.688rem;
 }
 
+/* posicion del btn de vuelo */
+.posicion__btn--vuelo {
+  position: static;
+}
+@media (min-width: 1200px) {
+  .posicion__btn--vuelo {
+    position: absolute;
+  }
+}
+
+.tvuelo__borders--colorpurpure {
+  border-bottom: solid 1px #A00762 !important;
+}
+.tvuelo__borders--colorgreen {
+  border-bottom: solid 1px #03A691 !important;
+}
+.tvuelo__text--footer {
+  font-size: 0.75rem;
+}
+@media (min-width: 992px) {
+  .tvuelo__text--footer {
+    font-size: 1rem;
+  }
+}
+.tvuelo__text--aggequipaje {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .tvuelo__text--aggequipaje {
+    font-size: 1.25rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
