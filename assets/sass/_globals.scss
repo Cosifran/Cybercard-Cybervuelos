@@ -146,33 +146,7 @@ body {
     top: 90%
 }
 
-
-
-//posision
-
-.position {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+.border__formulario{
+    border-style: dashed;
+    border-color: #C2C2C2;
 }
-
-
-.positioncupon{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-//border
-.bordercupon{
-    border-left: 2px dashed #FF0000;
-}
-
-.boderbutton{
-    border-color:  #9e005d !important;
-}
-
-.altodeseparador{
-    min-height: 2em; 
- }

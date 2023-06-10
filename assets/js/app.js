@@ -30,4 +30,34 @@ var swiper = new Swiper(".SwiperOpciones", {
   },
 });
 
+/* swiper busquedas recientes */
+var swiper = new Swiper(".SwiperBusquedaReciente", {
+  slidesPerView: "auto",
+  spaceBetween: 40,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1400: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  },
+});
+
+
+
 

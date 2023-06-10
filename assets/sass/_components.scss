@@ -41,17 +41,121 @@ body {
 }
 
 //swiper modal opciones
-
-.swiper-slide:nth-child(1n) {
+.swiper-1:nth-child(1n) {
   width: 95%;
 }
 
-.swiper-slide:nth-child(2n) {
+.swiper-1:nth-child(2n) {
   width: 95%;
 }
 
-.swiper-slide:nth-child(3n) {
+.swiper-1:nth-child(3n) {
   width: 95%;
+}
+
+//swipe index
+.swiper-2:nth-child(1n) {
+  width: 80%;
+}
+
+.swiper-2:nth-child(2n) {
+  width: 80%;
+}
+
+.swiper-2:nth-child(3n) {
+  width: 80%;
+}
+
+//componente index 
+
+.contvuelo{
+  &__body{
+    &_text--title{
+      font-size: 1.375rem;
+
+      @media (min-width: 768px){
+        font-size: 2rem;
+      }
+    }
+
+    &_text--text{
+      font-size: globals.$fon-5;
+
+      @media (min-width: 768px){
+        font-size: globals.$font-card;
+      }
+    }
+  }
+}
+
+//componente search
+
+.tvuelo{
+
+  &__borders{
+    &--colormain{
+      border-top: solid 1px globals.$color-main !important;
+    }
+
+    &--colorgreen{
+      border-top: solid 1px globals.$color-verde !important;
+    }
+  }
+
+  &__text{
+    &--body{
+      font-size: globals.$fon-5;
+
+      @media (min-width: 992px){
+        font-size: globals.$fon-7;
+      }
+    }
+
+    &--footer{
+      font-size: 0.75rem;
+
+      @media (min-width: 992px){
+        font-size: 1rem;
+      }
+    }
+    
+    &--aggequipaje{
+      font-size: globals.$fon-5;
+
+      @media (min-width: 992px){
+        font-size: globals.$font-3;
+      }
+    }
+  }
+}
+
+/* posicion del btn de vuelo */ 
+
+.posicion__btn--vuelo{
+  position: static;
+
+  @media (min-width: 1200px){
+    position: absolute;
+  }
+}
+
+//componente modal
+.font{
+
+  &__modal--title{
+    font-size: 1.188rem;
+    @media (min-width: 992px){
+      font-size: 1.5rem;
+    }
+  }
+
+  &__modal--text-big{
+    font-size: 1.875rem;
+  }
+
+  &__modal--text-small{
+    font-size: 0.688rem;
+  }
 }
 
 //focus de los input
@@ -70,220 +174,6 @@ body {
   border-color: #FF0000;
 }
 
-//textos cupones
-
-.responsivetextcuponcompra {
-  font-size: 0.875rem;
-  @media (min-width: 992px) {
-    font-size: 1rem;
-  }
-}
-
-.textocupon {
-  font-size: 1rem;
-  margin-top: 1.125rem !important;
-
-  @media (min-width: 992px) {
-    font-size: 1.875rem;
-  }
-}
-
-.cambiodecolor {
-  color: white;
-
-  @media (min-width: 1200px) {
-    color: #000;
-  }
-}
-
-.textocuponprecio {
-  font-size: 0.875rem;
-
-  @media (min-width: 992px) {
-    font-size: 1.25rem;
-  }
-}
-
-.textocuponvalido {
-  font-size: 0.75rem;
-
-  @media (min-width: 992px) {
-    font-size: 1.125rem;
-  }
-}
-
-.textobannercupon {
-  font-size: 1.4rem;
-  margin-top: 1.50rem !important;
-
-  @media (min-width: 768px) {
-    font-size: 2rem;
-  }
-}
-
-//texto mis compras 
-.textomiscompras {
-  font-size: 0.75rem;
-
-  @media (min-width: 992px) {
-    font-size: 1.125rem;
-  }
-}
-
-
-
-//text0 cards precio
-.estilotextoprecio {
-  text-decoration: line-through;
-  color: #6F6F6F;
-
-  @media (min-width: 768px) {
-    text-decoration: none;
-    color: rgba(160, 7, 98, 1);
-  }
-}
-
-//cybermarket texto 
-.textcolorcybermarket {
-  color: #FF0000;
-
-  @media (min-width: 1200px) {
-    color: #000;
-  }
-}
-
-//componente descripcion garantia responsive
-.descripcionresponsive {
-  background-color: transparent;
-
-  @media (min-width: 1200px) {
-    background-color: #FF0000;
-    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
-  }
-}
-
-.textdescripcionresponsive {
-  color: #FF0000;
-
-  @media (min-width: 1200px) {
-    color: white;
-  }
-}
-
-.garantiaresponsive {
-  color: black;
-  background-color: transparent;
-
-  @media (min-width: 1200px) {
-    color: white;
-    background-color: white;
-    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
-  }
-}
-
-.activebtncolor {
-  &:first-child:active {
-    background-color: var(--bs-btn-active-bg);
-    border-color: black;
-    border: 2px solid black;
-  }
-}
-
-.activebtntalla {
-  &:first-child:active {
-    background-color: var(--bs-btn-active-bg);
-    border-color: #FF0000;
-    border: 2px solid #FF0000;
-  }
-}
-
-//puntos componentes 
-.barranavegacion {
-  border: none;
-
-  @media (min-width: 1200px) {
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
-  }
-}
-
-.borderblwhite {
-  border-color: #F7E7E9 !important;
-
-  @media (min-width: 1200px) {
-    border-color: black !important;
-  }
-}
-
-.cambiodebg {
-  background-color: hsl(0, 100%, 50%);
-
-  @media (min-width: 1200px) {
-    background-color: #F7E7E9;
-  }
-}
-
-//linea de vencido en cupones
-.bonus-free {
-  position: relative;
-  overflow: hidden;
-
-  .free {
-    z-index: 10;
-    width: 335px;
-    height: 32px;
-    padding: 0 20px;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 25px;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    letter-spacing: 2.1px;
-    box-shadow: 0px 2px 5px #888888;
-    background: #FF0000;
-    border-top: 5px solid #FF0000;
-    border-bottom: 5px solid #FF0000;
-    -webkit-transform: rotate(35deg);
-    transform: rotate(318deg);
-    position: absolute;
-    right: -26%;
-    top: 32%;
-
-    @media(min-width: 1400px) {
-      right: 5% !important;
-      top: 25% !important;
-    }
-
-    @media (min-width: 992px) {
-      right: -7%;
-      top: 25%;
-    }
-
-  }
-}
-
-.free-puntos{
-  z-index: 10;
-  width: 499px;
-  height: 32px;
-  padding: 0 20px;
-  font-size: 14px;
-  text-transform: uppercase;
-  line-height: 25px;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: 2.1px;
-  box-shadow: 0px 2px 5px #888888;
-  background: #FF0000;
-  border-top: 5px solid #FF0000;
-  border-bottom: 5px solid #FF0000;
-  -webkit-transform: rotate(35deg);
-  transform: rotate(33deg);
-  position: absolute;
-  right: -25%;
-  top: 32%;
-}
 
 /* Cambia el color del input range en Bootstrap */
 input[type="range"]::-webkit-slider-thumb {
@@ -311,61 +201,49 @@ input[type="range"]::-webkit-slider-thumb {
   width: 100%;
 }
 
-.font{
-
-  &__modal--title{
-    font-size: 1.5rem;
-  }
-
-  &__modal--text-big{
-    font-size: 1.875rem;
-  }
-
-  &__modal--text-small{
-    font-size: 0.688rem;
-  }
+//formulario componente
+.accordion {
+  --bs-accordion-color: var(--bs-body-color);
+  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+  --bs-accordion-border-color: trasparent;
+  --bs-accordion-border-width: var(--bs-border-width);
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: var(--bs-body-color);
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-180deg);
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230a58ca'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  --bs-accordion-btn-focus-border-color: #86b7fe;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0);
+  --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 1rem;
+  --bs-accordion-active-color: var(--bs-primary-text);
+  --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
 }
 
-/* posicion del btn de vuelo */ 
-
-.posicion__btn--vuelo{
-  position: static;
-
-  @media (min-width: 1200px){
-    position: absolute;
-  }
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+  box: shadow 0;
 }
 
-.tvuelo{
-
-  &__borders{
-    &--colorpurpure{
-      border-bottom: solid 1px globals.$color-text-sec !important;
-    }
-
-    &--colorgreen{
-      border-bottom: solid 1px globals.$color-verde !important;
-    }
-  }
-
-  &__text{
-    &--footer{
-      font-size: 0.75rem;
-
-      @media (min-width: 992px){
-        font-size: 1rem;
-      }
-    }
-    
-    &--aggequipaje{
-      font-size: globals.$fon-5;
-
-      @media (min-width: 992px){
-        font-size: globals.$font-3;
-      }
-    }
-  }
+.accordion-button:focus {
+  z-index: 3;
+  border-color: var(--bs-accordion-btn-focus-border-color);
+  outline: 0;
+  box-shadow: var(--bs-accordion-btn-focus-box-shadow);
 }
+
+
+
+
+
 
 
 
