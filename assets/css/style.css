@@ -345,4 +345,8 @@ input[type=range]::-webkit-slider-thumb:hover {
   box-shadow: var(--bs-accordion-btn-focus-box-shadow);
 }
 
+.formulario__font--grande {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -240,6 +240,15 @@ input[type="range"]::-webkit-slider-thumb {
   box-shadow: var(--bs-accordion-btn-focus-box-shadow);
 }
 
+//tamaño de los textos
+.formulario{
+  &__font{
+    &--grande{
+      font-size: 2rem;
+    }
+  }
+}
+
 
 
 
