@@ -273,20 +273,20 @@ body {
   border-color: #86b7fe;
   border-color: var(--bs-form-invalid-border-color);
   box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb), 0.25);
-  border: #FF0000 solid 1px;
+  border: #ff0000 solid 1px;
 }
 
 .form-check-input:checked {
-  background-color: #FF0000;
-  border-color: #FF0000;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 /* Cambia el color del input range en Bootstrap */
 input[type=range]::-webkit-slider-thumb {
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 input[type=range]::-webkit-slider-thumb:hover {
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 
 /* Cambia el color del swiper del modal de opciones */
@@ -310,20 +310,30 @@ input[type=range]::-webkit-slider-thumb:hover {
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
   --bs-accordion-bg: var(--bs-body-bg);
-  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+  --bs-accordion-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: trasparent;
   --bs-accordion-border-width: var(--bs-border-width);
   --bs-accordion-border-radius: 0;
-  --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-accordion-inner-border-radius: calc(
+    var(--bs-border-radius) - (var(--bs-border-width))
+  );
   --bs-accordion-btn-padding-x: 1.25rem;
   --bs-accordion-btn-padding-y: 1rem;
   --bs-accordion-btn-color: var(--bs-body-color);
   --bs-accordion-btn-bg: var(--bs-accordion-bg);
-  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%23212529"%3e%3cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e);
+  --bs-accordion-btn-icon: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="%23212529"%3e%3cpathfill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e
+  );
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-  --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%230a58ca"%3e%3cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e);
+  --bs-accordion-btn-active-icon: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="%230a58ca"%3e%3cpathfill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e
+  );
   --bs-accordion-btn-focus-border-color: #86b7fe;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0);
   --bs-accordion-body-padding-x: 1.25rem;
@@ -345,8 +355,49 @@ input[type=range]::-webkit-slider-thumb:hover {
   box-shadow: var(--bs-accordion-btn-focus-box-shadow);
 }
 
+.formulario__font--title {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .formulario__font--title {
+    font-size: 1.25rem;
+  }
+}
+.formulario__font--body {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .formulario__font--body {
+    font-size: 1rem;
+  }
+}
+.formulario__font--icon {
+  font-size: 1.125rem;
+}
+@media (min-width: 992px) {
+  .formulario__font--icon {
+    font-size: 1.25rem;
+  }
+}
+.formulario__font--collapse {
+  font-size: 0.625rem;
+}
+@media (min-width: 992px) {
+  .formulario__font--collapse {
+    font-size: 0.875rem;
+  }
+}
 .formulario__font--grande {
   font-size: 2rem;
+}
+
+.confirmation__font--footer {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .confirmation__font--footer {
+    font-size: 1.25rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
