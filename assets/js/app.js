@@ -33,7 +33,7 @@ var swiper = new Swiper(".SwiperOpciones", {
 /* swiper busquedas recientes */
 var swiper = new Swiper(".SwiperBusquedaReciente", {
   slidesPerView: "auto",
-  spaceBetween: 40,
+  spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

@@ -55,11 +55,11 @@ body {
 
 //swipe index
 .swiper-2:nth-child(1n) {
-  width: 80%;
+  width: 90%;
 }
 
 .swiper-2:nth-child(2n) {
-  width: 80%;
+  width: 95%;
 }
 
 .swiper-2:nth-child(3n) {
@@ -243,7 +243,6 @@ input[type="range"]::-webkit-slider-thumb {
 .accordion-button:not(.collapsed) {
   color: black;
   background-color: transparent;
-  box: shadow 0;
 }
 
 .accordion-button:focus {
