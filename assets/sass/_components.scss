@@ -66,6 +66,19 @@ body {
   width: 80%;
 }
 
+//swiper botones
+.swiper-3:nth-child(1n) {
+  width: 90%;
+}
+
+.swiper-3:nth-child(2n) {
+  width: 95%;
+}
+
+.swiper-3:nth-child(3n) {
+  width: 80%;
+}
+
 //componente index
 
 .contvuelo {
@@ -146,14 +159,27 @@ body {
       font-size: 1.5rem;
     }
   }
+  &__modal--text-small {
+    font-size: 0.688rem;
+  }
+
+  &__modal--text-normal{
+    font-size: globals.$fon-7 ;
+
+    @media (min-width: 900px){
+      font-size: globals.$fon-5;
+    }
+
+  }
 
   &__modal--text-big {
     font-size: 1.875rem;
   }
+}
 
-  &__modal--text-small {
-    font-size: 0.688rem;
-  }
+.barra_pading{
+  padding-bottom: 0.10rem;
+  padding-top: 0.10rem;
 }
 
 //focus de los input
