@@ -131,8 +131,16 @@ body {
       }
     }
 
-    &--aggequipaje {
+    &--aggequipaje-icon {
       font-size: globals.$fon-5;
+
+      @media (min-width: 992px) {
+        font-size: globals.$font-3;
+      }
+    }
+
+    &--aggequipaje {
+      font-size: globals.$fon-7;
 
       @media (min-width: 992px) {
         font-size: globals.$font-3;

@@ -247,8 +247,16 @@ body {
     font-size: 1rem;
   }
 }
-.tvuelo__text--aggequipaje {
+.tvuelo__text--aggequipaje-icon {
   font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .tvuelo__text--aggequipaje-icon {
+    font-size: 1.25rem;
+  }
+}
+.tvuelo__text--aggequipaje {
+  font-size: 0.75rem;
 }
 @media (min-width: 992px) {
   .tvuelo__text--aggequipaje {
