@@ -42,15 +42,15 @@ body {
 
 //swiper modal opciones
 .swiper-1:nth-child(1n) {
-  width: 95%;
+  width: 90%;
 }
 
 .swiper-1:nth-child(2n) {
-  width: 95%;
+  width: 90%;
 }
 
 .swiper-1:nth-child(3n) {
-  width: 95%;
+  width: 90%;
 }
 
 //swipe index
@@ -72,7 +72,7 @@ body {
 }
 
 .swiper-3:nth-child(2n) {
-  width: 95%;
+  width: 90%;
 }
 
 .swiper-3:nth-child(3n) {
@@ -123,8 +123,12 @@ body {
       }
     }
 
+    &--precios{
+      font-size: 0.85rem;
+    }
+
     &--footer {
-      font-size: 0.75rem;
+      font-size: globals.$fon-5;
 
       @media (min-width: 992px) {
         font-size: 1rem;
@@ -132,7 +136,7 @@ body {
     }
 
     &--aggequipaje-icon {
-      font-size: globals.$fon-5;
+      font-size: globals.$fon-4;
 
       @media (min-width: 992px) {
         font-size: globals.$font-3;
@@ -140,7 +144,7 @@ body {
     }
 
     &--aggequipaje {
-      font-size: globals.$fon-7;
+      font-size: 0.8rem;
 
       @media (min-width: 992px) {
         font-size: globals.$font-3;
@@ -186,7 +190,7 @@ body {
 }
 
 .barra_pading{
-  padding-bottom: 0.10rem;
+  padding-bottom: 0rem;
   padding-top: 0.10rem;
 }
 
