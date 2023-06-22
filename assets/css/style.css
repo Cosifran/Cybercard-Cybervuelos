@@ -132,6 +132,10 @@ body {
   border-color: #C2C2C2;
 }
 
+.separaciontexto {
+  line-height: 1.063rem;
+}
+
 html,
 body {
   position: relative;
