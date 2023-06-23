@@ -402,6 +402,9 @@ input[type=range]::-webkit-slider-thumb:hover {
     font-size: 1.25rem;
   }
 }
+.formulario__font--textSmall {
+  font-size: 0.8rem;
+}
 .formulario__font--body {
   font-size: 0.875rem;
 }
