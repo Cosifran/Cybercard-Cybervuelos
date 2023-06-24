@@ -165,10 +165,26 @@ body {
 
 //componente modal
 .font {
+
+  &__modal--text-header{
+    font-size: globals.$font-cardSmall ;
+
+    @media (min-width: 900px){
+      font-size: globals.$fon-5;
+    }
+
+  }
+
   &__modal--title {
     font-size: 1.188rem;
     @media (min-width: 992px) {
       font-size: 1.5rem;
+    }
+  }
+  &__modal--titleSmall {
+    font-size: globals.$fon-5 ;
+    @media (min-width: 992px) {
+      font-size: globals.$fon-5;
     }
   }
   &__modal--text-small {
@@ -315,7 +331,7 @@ input[type="range"]::-webkit-slider-thumb {
       }
     }
     &--collapse{
-      font-size: globals.$font-6;
+      font-size: globals.$fon-5;
       @media (min-width: 992px){
         font-size: globals.$fon-5;
       }

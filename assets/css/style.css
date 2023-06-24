@@ -10,6 +10,10 @@ body {
 }
 
 /* tamaño de fuentes */
+.font__cardSmall {
+  font-size: 0.8rem;
+}
+
 .font__small {
   font-size: 0.625rem !important;
 }
@@ -134,6 +138,12 @@ body {
 
 .separaciontexto {
   line-height: 1.063rem;
+}
+
+.tamañoderadius {
+  border: 2px solid #adb5bd !important;
+  height: 1.125rem !important;
+  width: 1.125rem !important;
 }
 
 html,
@@ -281,12 +291,28 @@ body {
   }
 }
 
+.font__modal--text-header {
+  font-size: 0.8rem;
+}
+@media (min-width: 900px) {
+  .font__modal--text-header {
+    font-size: 0.875rem;
+  }
+}
 .font__modal--title {
   font-size: 1.188rem;
 }
 @media (min-width: 992px) {
   .font__modal--title {
     font-size: 1.5rem;
+  }
+}
+.font__modal--titleSmall {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .font__modal--titleSmall {
+    font-size: 0.875rem;
   }
 }
 .font__modal--text-small {
@@ -422,7 +448,7 @@ input[type=range]::-webkit-slider-thumb:hover {
   }
 }
 .formulario__font--collapse {
-  font-size: 0.625rem;
+  font-size: 0.875rem;
 }
 @media (min-width: 992px) {
   .formulario__font--collapse {

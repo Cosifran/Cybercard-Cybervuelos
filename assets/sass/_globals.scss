@@ -20,6 +20,7 @@ $fon-5: 0.875rem;
 $fon-4: 1.125rem;
 $fon-7: 0.75rem;
 $font-card: 0.938rem;
+$font-cardSmall: 0.8rem;
 
 body {
     font-family: "Roboto", sans-serif !important;
@@ -29,6 +30,9 @@ body {
     color: $color-input;
 }
 /* tamaño de fuentes */
+.font__cardSmall{
+    font-size: $font-cardSmall;
+}
 .font__small {
     font-size: $font-6 !important;
 }
@@ -154,5 +158,11 @@ body {
 //line heith
 .separaciontexto{
     line-height: 1.063rem;
+}
+
+.tamañoderadius{
+    border: 2px solid $color-input !important;
+    height: $fon-4 !important;
+    width: $fon-4 !important;
 }
 
