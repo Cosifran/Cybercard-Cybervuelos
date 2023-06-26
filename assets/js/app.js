@@ -1,7 +1,13 @@
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: "2",
   spaceBetween: 10,
+  loop: true,
+  freeMode: true,
 
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
   breakpoints: {
     992: {
       slidesPerView: 3,
