@@ -20,7 +20,7 @@ var swiper = new Swiper(".mySwiper", {
 
 var swiper = new Swiper(".SwiperOpciones", {
   slidesPerView: "auto",
-  spaceBetween: 10,
+  spaceBetween: 5,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

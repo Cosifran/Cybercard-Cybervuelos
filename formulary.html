@@ -57,8 +57,7 @@
 
 
                             <div class="col-12 col-lg-8 formulario__font">
-
-                                <div class="card rounded-3 bgredsecundary border-0 shadow-sm">
+                                <div class="card rounded-3 bgredsecundary border-0 shadow">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-2 col-lg-1 d-flex align-items-center">
@@ -253,7 +252,7 @@
 
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <div class="card shadow-sm pb-2 border-0">
+                                        <div class="card shadow pb-2 border-0">
                                             <div class="card-body">
                                                 <h5 class="fw-bold">Agrega tus datos finaliza tu compra</h5>
                                                 <p class="mb-0 fw-bold">Añade la información de tus viajeros</p>
@@ -430,21 +429,21 @@
                                 <!--documentacion requerida-->
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <div class="card shadow-sm border-0">
+                                        <div class="card shadow border-0">
                                             <div class="card-body">
                                                 <div class="row g-0">
                                                     <div class="col-12">
                                                         <div class="accordion" id="accordionExample">
                                                             <div class="accordion-item">
                                                                 <h2 class="accordion-header">
-                                                                    <button class="accordion-button" type="button"
+                                                                    <button class="accordion-button px-2" type="button"
                                                                         data-bs-toggle="collapse"
                                                                         data-bs-target="#collapseOne"
                                                                         aria-expanded="true"
                                                                         aria-controls="collapseOne">
-                                                                        <p class="mb-0 font__medium fw-bold">
+                                                                        <p class="mb-0 fw-bold">
                                                                             <span><i
-                                                                                    class="fa-sharp fa-solid fa-circle-info"></i></span>
+                                                                                    class="fa-sharp fa-solid fa-circle-info colorprimary me-2"></i></span>
                                                                             Documentacion requerida
                                                                         </p>
                                                                     </button>
@@ -493,7 +492,7 @@
                                 <!--tus vuelos no incluyen equipaje-->
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <div class="card shadow-sm border-0">
+                                        <div class="card shadow border-0">
                                             <div class="card-body">
                                                 <div class="row g-0">
                                                     <div class="col-12">
@@ -505,7 +504,9 @@
                                                                         data-bs-target="#collapseDos"
                                                                         aria-expanded="true"
                                                                         aria-controls="collapseOne">
-                                                                        <p class="mb-0 fw-bold font__medium">
+                                                                        <p class="mb-0 fw-bold">
+                                                                            <span><i
+                                                                                class="fa-sharp fa-solid fa-circle-info colorprimary me-2"></i></span>
                                                                             Tus vuelos no incluyen equipaje
                                                                         </p>
                                                                     </button>
@@ -738,100 +739,58 @@
                                 <!--como desea pagar-->
                                 <div class="row mt-3">
                                     <div class="col-12">
-                                        <div class="card shadow-sm border-0">
+                                        <div class="card shadow border-0">
                                             <div class="card-body">
-                                                <p class="mb-0 fw-bold font__medium">Método de pago</p>
+                                                <p class="mb-0 fw-bold">Detalle del precio</p>
+                                                <p class="mb-0 font__cardSmall">Aquí puedes ver el desglose completo de tu compra</p>
                                                 <div class="row g-0 mt-3">
                                                     <div class="col-12">
-                                                        <p class="mb-1">
-                                                            ¿Cómo desea pagar?
-                                                        </p>
-
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Tarjeta crédito</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
-                                                        </select>
-
                                                         <div class="row g-0 mt-3">
                                                             <div class="col-12">
-                                                                <div class="card backgroundmain border-0">
+                                                                <div class="card border">
                                                                     <div class="card-body">
                                                                         <div class="row g-0">
-                                                                            <div class="col-12">
-                                                                                <p class="mb-0 fw-bold">Ingresa los
-                                                                                    datos de la tarjeta</p>
-                                                                                <form class="row mt-3 g-3">
-                                                                                    <div class="col-12 col-lg-6">
-                                                                                        <label for="inputNumeroTarjeta"
-                                                                                            class="form-label">Numero de
-                                                                                            tarjeta</label>
-                                                                                        <input type="number"
-                                                                                            class="form-control"
-                                                                                            id="inputNumeroTarjeta"
-                                                                                            placeholder="Ingresa el numero de tarjeta">
-                                                                                    </div>
-                                                                                    <div class="col-12 col-lg-6">
-                                                                                        <label for="inputTitularTarjeta"
-                                                                                            class="form-label">Titular
-                                                                                            de tarjeta</label>
-                                                                                        <input type="text"
-                                                                                            class="form-control"
-                                                                                            id="inputTitularTarjeta"
-                                                                                            placeholder="Como figura en la tarjeta">
-                                                                                    </div>
+                                                                            <div class="col-6 font__normalsmall">
+                                                                                <p>
+                                                                                    Pasajeros
+                                                                                </p>
+                                                                            </div>
+                                                                            <div class="col-6 text-end">
+                                                                                <p class="mb-0 font__normalsmall">
+                                                                                    1 Adulto
+                                                                                </p>
+                                                                            </div>
 
-                                                                                    <div class="col-6 col-lg-3 mt-3">
-                                                                                        <label for="startDate"
-                                                                                            class="form-label">Fecha de
-                                                                                            nacimiento</label>
-                                                                                        <input id="startDate"
-                                                                                            class="form-control rounded-3 colorinput fontsnormalsmall"
-                                                                                            type="date">
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="col-6 col-lg-3 mt-3 d-flex  flex-column justify-content-end">
-                                                                                        <label for="inputCodSeg"
-                                                                                            class="form-label ">Cod.
-                                                                                            Seguridad</label>
-                                                                                        <input type="number"
-                                                                                            class="form-control"
-                                                                                            id="inputCodSeg"
-                                                                                            placeholder="CVV">
-                                                                                    </div>
-                                                                                    <div class="col-12 col-lg-6 mt-3">
-                                                                                        <label
-                                                                                            for="inputdocumnetoTitular"
-                                                                                            class="form-label">Documento
-                                                                                            del titular de la
-                                                                                            tarjeta</label>
-                                                                                        <input type="number"
-                                                                                            class="form-control"
-                                                                                            id="inputdocumnetoTitular"
-                                                                                            placeholder="Ej.: 1536785425">
-                                                                                    </div>
+                                                                            <hr>
 
-                                                                                    <div class="col-12 mt-3">
-                                                                                        <label for="inputCuota"
-                                                                                            class="form-label">Selecciona
-                                                                                            en cuantas cuotas quieres
-                                                                                            pagar</label>
-                                                                                        <select class="form-select"
-                                                                                            aria-label="Default select example"
-                                                                                            id="inputCuota">
-                                                                                            <option selected>Ingresa el
-                                                                                                numero de cuotas
-                                                                                            </option>
-                                                                                            <option value="1">One
-                                                                                            </option>
-                                                                                            <option value="2">Two
-                                                                                            </option>
-                                                                                            <option value="3">Three
-                                                                                            </option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </form>
+                                                                            <div class="col-6">
+                                                                                <p class=" font__normalsmall">
+                                                                                    Tarifa
+                                                                                </p>
+                                                                                <p class="mb-0 font__normalsmall">
+                                                                                    Impuestos y tasas
+                                                                                </p>
+                                                                            </div>
+                                                                            <div class="col-6 text-end">
+                                                                                <p class="font__normalsmall">
+                                                                                    COP 000.000
+                                                                                </p>
+                                                                                <p class="font__normalsmall">
+                                                                                    COP 000.000
+                                                                                </p>
+                                                                            </div>
+
+                                                                            <hr>
+
+                                                                            <div class="col-5">
+                                                                                <p class="mb-0 font__card fw-bold">
+                                                                                    Total
+                                                                                </p>
+                                                                            </div>
+                                                                            <div class="col-7 text-end">
+                                                                                <p class="mb-0 font__card fw-bold">
+                                                                                    COP 000.000.000
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -839,17 +798,38 @@
                                                             </div>
                                                         </div>
 
-                                                        <div class="col-12 mt-3">
-                                                            <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" value=""
-                                                                    id="flexCheckDefault">
-                                                                <label class="form-check-label font__normalsmall"
-                                                                    for="flexCheckDefault">
-                                                                    Leí y acepto los <span
-                                                                        class="colorprimary fw-medium">términos &
-                                                                        condiciones, políticas de privacidad</span> de
-                                                                    CyberCard Colombia S.A.S.
-                                                                </label>
+                                                        <div class="row g-0">
+                                                            <div class="col-12 mt-4">
+                                                                <p class="fw-bold">Términos y condiciones</p>
+                                                                <p class="mb-0 font__normalsmall">
+                                                                    Manifiesto haber leído cuidadosamente las políticas de cancelación, de bajo de cada itinerario y estoy de acuerdo con la información incluida en el itinerario, datos de pasajeros y tarifa.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-12 mt-3">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" value=""
+                                                                        id="flexCheckDefault">
+                                                                    <label class="form-check-label font__normalsmall"
+                                                                        for="flexCheckDefault">
+                                                                        Leí y acepto los <span
+                                                                            class="colorprimary fw-medium"> términos & condiciones, </span> de Holding Club CyberCard.
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 mt-3">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" value=""
+                                                                        id="flexCheckDefault">
+                                                                    <label class="form-check-label font__normalsmall"
+                                                                        for="flexCheckDefault">
+                                                                        Leí y acepto el tratamiento de <span
+                                                                            class="colorprimary fw-medium">datos personales y la políticas de privacidad</span> de Holding Club CyberCard.
+                                                                    </label>
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -871,7 +851,7 @@
                             <div class="col-lg-4 d-none d-lg-block">
                                 <div class="row">
                                     <div class="col-12">
-                                        <div class="card mb-3 mt-3 rounded-4 shadow-sm border-0">
+                                        <div class="card mb-3 mt-3 rounded-4 shadow border-0">
                                             <div class="card-body py-2">
                                                 <div class="row g-0 formulario">
                                                     <div class="col-1 formulario__font">
@@ -1398,6 +1378,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
+                                
 
                                                 <div class="col-12">
                                                     <div class="card mb-3 border-0">
@@ -3161,6 +3143,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <!-- nav abajo detalle de pago-->
+                <div class="row">
+                    <nav class="navbar fixed-bottom navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Fixed bottom</a>
+                        </div>
+                      </nav>
                 </div>
             </section>
         </main>
