@@ -1,0 +1,41 @@
+@use "globals";
+
+.vuelo {
+    &__body {
+        &_fonts {
+            &--title {
+                font-size: 1.375rem;
+
+                @media (min-width: 768px) {
+                    font-size: 2rem;
+                }
+            }
+
+            &--subtitle {
+                font-size: globals.$fon-5;
+
+                @media (min-width: 768px) {
+                    font-size: globals.$font-card;
+                }
+            }
+        }
+    }
+
+    &__card{
+        &--small{
+            &_font{
+                &--iconBig{
+                    font-size: globals.$font-3;
+                }
+
+                &--title{
+                    font-size: globals.$fon-4;
+                }
+
+                &--body{
+                    font-size: globals.$fon-5;
+                }
+            }
+        }
+    }
+}
