@@ -1,0 +1,72 @@
+@use "globals";
+
+.search{
+    &__body{
+        &_filtro{
+            &_fonts{
+                &--title{
+                    font-size: globals.$font-3;
+                }
+
+                &--titlesm{
+                    font-size: globals.$fon-5;
+                }
+
+                &--body{
+                    font-size: globals.$font-card;
+                }
+            }
+        }
+
+        &_btnsup{
+            &_fonts{
+                &--body{
+                    font-size: globals.$fon-7;
+                }
+            }
+        }
+
+        &_card{
+            &--vuelo{
+                &_fonts{
+                    &--tittle{
+                        font-size: globals.$fon-4;
+                    }
+
+                    &--subtittle{
+                        font-size: globals.$fon-5;
+
+                    }
+
+                    &--bodyXl{
+                        font-size: globals.$fon-5;
+
+                        @media (min-width: 992px) {
+                            font-size: globals.$fon-4;
+                          }
+                    }
+
+                    &--bodyLg{
+                        font-size: globals.$font-card;
+                    }
+
+                    &--bodyMd{
+                        font-size: globals.$font-cardSmall;
+                    }
+
+                    &--bodySm{
+                        font-size: globals.$fon-7;
+                    }
+
+                    &--footer{
+                        font-size: globals.$fon-5;
+
+                        @media (min-width: 992px) {
+                          font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
