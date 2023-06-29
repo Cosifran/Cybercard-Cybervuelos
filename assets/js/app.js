@@ -26,9 +26,13 @@ var swiper = new Swiper(".SwiperOpciones", {
     clickable: true,
   },
   breakpoints: {
-    992: {
+    992:{
       slidesPerView: 2,
       spaceBetween: 20,
+    },
+    1400: {
+      slidesPerView: 3,
+      spaceBetween: 10,
     },
   },
 });

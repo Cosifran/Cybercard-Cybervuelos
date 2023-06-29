@@ -47,7 +47,7 @@ body {
   font-size: 4rem;
 }
 
-.quitarcolorenlaces {
+.removecolorlink {
   color: transparent;
 }
 
@@ -227,112 +227,73 @@ body {
   color: red !important;
 }
 
-.contvuelo__body_text--title {
+.contflight__body_text--title {
   font-size: 1.375rem;
 }
 @media (min-width: 768px) {
-  .contvuelo__body_text--title {
+  .contflight__body_text--title {
     font-size: 2rem;
   }
 }
-.contvuelo__body_text--text {
+.contflight__body_text--text {
   font-size: 0.875rem;
 }
 @media (min-width: 768px) {
-  .contvuelo__body_text--text {
+  .contflight__body_text--text {
     font-size: 0.938rem;
   }
 }
 
-.tvuelo__borders--colormain {
+.tflight__borders--colormain {
   border-top: solid 1px #FF0000 !important;
 }
-.tvuelo__borders--colorgreen {
+.tflight__borders--colorgreen {
   border-top: solid 1px #03A691 !important;
 }
-.tvuelo__text--body {
+.tflight__text--body {
   font-size: 0.875rem;
 }
 @media (min-width: 992px) {
-  .tvuelo__text--body {
+  .tflight__text--body {
     font-size: 0.75rem;
   }
 }
-.tvuelo__text--precios {
+.tflight__text--precios {
   font-size: 0.85rem;
 }
-.tvuelo__text--footer {
+.tflight__text--footer {
   font-size: 0.875rem;
 }
 @media (min-width: 992px) {
-  .tvuelo__text--footer {
+  .tflight__text--footer {
     font-size: 1rem;
   }
 }
-.tvuelo__text--aggequipaje-icon {
+.tflight__text--aggequipaje-icon {
   font-size: 16px !important;
 }
 @media (min-width: 992px) {
-  .tvuelo__text--aggequipaje-icon {
+  .tflight__text--aggequipaje-icon {
     font-size: 1.25rem;
   }
 }
-.tvuelo__text--aggequipaje {
+.tflight__text--aggequipaje {
   font-size: 0.8rem;
 }
 @media (min-width: 992px) {
-  .tvuelo__text--aggequipaje {
+  .tflight__text--aggequipaje {
     font-size: 1.25rem;
   }
 }
 
-/* posicion del btn de vuelo */
-.posicion__btn--vuelo {
+/* posicion del btn de flight */
+.posicion__btn--flight {
   position: static;
 }
-@media (min-width: 1200px) {
-  .posicion__btn--vuelo {
+@media (min-width: 1400px) {
+  .posicion__btn--flight {
     position: absolute;
   }
-}
-
-.font__modal--text-header {
-  font-size: 0.8rem;
-}
-@media (min-width: 900px) {
-  .font__modal--text-header {
-    font-size: 0.875rem;
-  }
-}
-.font__modal--title {
-  font-size: 1.188rem;
-}
-@media (min-width: 992px) {
-  .font__modal--title {
-    font-size: 1.5rem;
-  }
-}
-.font__modal--titleSmall {
-  font-size: 0.875rem;
-}
-@media (min-width: 992px) {
-  .font__modal--titleSmall {
-    font-size: 0.875rem;
-  }
-}
-.font__modal--text-small {
-  font-size: 0.688rem;
-}
-.font__modal--text-normal {
-  font-size: 0.75rem;
-}
-@media (min-width: 900px) {
-  .font__modal--text-normal {
-    font-size: 0.875rem;
-  }
-}
-.font__modal--text-big {
-  font-size: 1.75rem;
 }
 
 .barra_pading {
@@ -473,74 +434,133 @@ input[type=range]::-webkit-slider-thumb:hover {
   }
 }
 
-.vuelo__body_fonts--title {
+.flight__body_fonts--title {
   font-size: 1.375rem;
 }
 @media (min-width: 768px) {
-  .vuelo__body_fonts--title {
+  .flight__body_fonts--title {
     font-size: 2rem;
   }
 }
-.vuelo__body_fonts--subtitle {
+.flight__body_fonts--subtitle {
   font-size: 0.875rem;
 }
 @media (min-width: 768px) {
-  .vuelo__body_fonts--subtitle {
+  .flight__body_fonts--subtitle {
     font-size: 0.938rem;
   }
 }
-.vuelo__card--small_font--iconBig {
+.flight__card--small_font--iconBig {
   font-size: 1.25rem;
 }
-.vuelo__card--small_font--title {
+.flight__card--small_font--title {
   font-size: 1.125rem;
 }
-.vuelo__card--small_font--body {
+.flight__card--small_font--body {
   font-size: 0.875rem;
 }
 
-.search__body_filtro_fonts--title {
+.search__body_filter_fonts--title {
   font-size: 1.25rem;
 }
-.search__body_filtro_fonts--titlesm {
+.search__body_filter_fonts--titlesm {
   font-size: 0.875rem;
 }
-.search__body_filtro_fonts--body {
+.search__body_filter_fonts--body {
   font-size: 0.938rem;
 }
 .search__body_btnsup_fonts--body {
   font-size: 0.75rem;
 }
-.search__body_card--vuelo_fonts--tittle {
+.search__body_card--flight_fonts--tittle {
   font-size: 1.125rem;
 }
-.search__body_card--vuelo_fonts--subtittle {
-  font-size: 0.875rem;
+.search__body_card--flight_fonts--subtittle {
+  font-size: 0.8rem;
 }
-.search__body_card--vuelo_fonts--bodyXl {
+@media (min-width: 992px) {
+  .search__body_card--flight_fonts--subtittle {
+    font-size: 0.875rem;
+  }
+}
+.search__body_card--flight_fonts--bodyXl {
   font-size: 0.875rem;
 }
 @media (min-width: 992px) {
-  .search__body_card--vuelo_fonts--bodyXl {
+  .search__body_card--flight_fonts--bodyXl {
     font-size: 1.125rem;
   }
 }
-.search__body_card--vuelo_fonts--bodyLg {
+.search__body_card--flight_fonts--bodyLg {
   font-size: 0.938rem;
 }
-.search__body_card--vuelo_fonts--bodyMd {
+.search__body_card--flight_fonts--bodyMd {
   font-size: 0.8rem;
 }
-.search__body_card--vuelo_fonts--bodySm {
+.search__body_card--flight_fonts--bodySm {
   font-size: 0.75rem;
 }
-.search__body_card--vuelo_fonts--footer {
+.search__body_card--flight_fonts--footer {
   font-size: 0.875rem;
 }
 @media (min-width: 992px) {
-  .search__body_card--vuelo_fonts--footer {
+  .search__body_card--flight_fonts--footer {
     font-size: 1rem;
   }
+}
+.search__body_modal--goTo_fonts--tittleXl {
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  .search__body_modal--goTo_fonts--tittleXl {
+    font-size: 1.125rem;
+  }
+}
+.search__body_modal--goTo_fonts--tittleLg {
+  font-size: 1.125rem;
+}
+@media (min-width: 992px) {
+  .search__body_modal--goTo_fonts--tittleLg {
+    font-size: 1rem;
+  }
+}
+.search__body_modal--goTo_fonts--tittleXxl {
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  .search__body_modal--goTo_fonts--tittleXxl {
+    font-size: 1.125rem;
+  }
+}
+.search__body_modal--goTo_fonts--bodySm {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .search__body_modal--goTo_fonts--bodySm {
+    font-size: 0.875rem;
+  }
+}
+.search__body_modal--goTo_fonts--bodyMd {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .search__body_modal--goTo_fonts--bodyMd {
+    font-size: 1rem;
+  }
+}
+.search__body_modal--goTo_fonts--bodyLg {
+  font-size: 0.938rem;
+}
+.search__body_modal--goTo_fonts--bodyXl {
+  font-size: 0.938rem;
+}
+@media (min-width: 992px) {
+  .search__body_modal--goTo_fonts--bodyXl {
+    font-size: 1rem;
+  }
+}
+.search__body_modal--goTo_fonts--bodyXxl {
+  font-size: 1.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */

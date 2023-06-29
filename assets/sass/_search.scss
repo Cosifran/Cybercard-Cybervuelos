@@ -1,69 +1,135 @@
 @use "globals";
 
-.search{
-    &__body{
-        &_filtro{
-            &_fonts{
-                &--title{
+.search {
+    &__body {
+        &_filter {
+            &_fonts {
+                &--title {
                     font-size: globals.$font-3;
                 }
 
-                &--titlesm{
+                &--titlesm {
                     font-size: globals.$fon-5;
                 }
 
-                &--body{
+                &--body {
                     font-size: globals.$font-card;
                 }
             }
         }
 
-        &_btnsup{
-            &_fonts{
-                &--body{
+        &_btnsup {
+            &_fonts {
+                &--body {
                     font-size: globals.$fon-7;
                 }
             }
         }
 
-        &_card{
-            &--vuelo{
-                &_fonts{
-                    &--tittle{
+        &_card {
+            &--flight {
+                &_fonts {
+                    &--tittle {
                         font-size: globals.$fon-4;
                     }
 
-                    &--subtittle{
-                        font-size: globals.$fon-5;
+                    &--subtittle {
+                        font-size: globals.$font-cardSmall;
+
+                        @media (min-width: 992px) {
+                            font-size: globals.$fon-5;
+                        }
 
                     }
 
-                    &--bodyXl{
+                    &--bodyXl {
                         font-size: globals.$fon-5;
 
                         @media (min-width: 992px) {
                             font-size: globals.$fon-4;
-                          }
+                        }
+                    }
+
+                    &--bodyLg {
+                        font-size: globals.$font-card;
+                    }
+
+                    &--bodyMd {
+                        font-size: globals.$font-cardSmall;
+                    }
+
+                    &--bodySm {
+                        font-size: globals.$fon-7;
+                    }
+
+                    &--footer {
+                        font-size: globals.$fon-5;
+
+                        @media (min-width: 992px) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        &_modal {
+            &--goTo {
+                &_fonts {
+                    &--tittleXl{
+                        font-size: globals.$font-3;
+
+                        @media (min-width: 992px) {
+                            font-size: globals.$fon-4;
+                        }
+                    }
+
+                    &--tittleLg {
+                        font-size: globals.$fon-4;
+
+                        @media (min-width: 992px) {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    &--tittleXxl{
+                        font-size: 1.5rem;
+
+                        @media (min-width: 992px) {
+                            font-size: globals.$fon-4;
+                        }
+                    }
+                    
+                    &--bodySm{
+                        font-size: globals.$fon-5;
+
+                        @media (min-width: 992px) {
+                            font-size: globals.$fon-5;
+                        }
+                    }
+
+                    &--bodyMd{
+                        font-size: globals.$fon-5;
+
+                        @media (min-width: 992px) {
+                            font-size: 1rem;
+                        }
                     }
 
                     &--bodyLg{
                         font-size: globals.$font-card;
                     }
 
-                    &--bodyMd{
-                        font-size: globals.$font-cardSmall;
-                    }
-
-                    &--bodySm{
-                        font-size: globals.$fon-7;
-                    }
-
-                    &--footer{
-                        font-size: globals.$fon-5;
+                    &--bodyXl{
+                        font-size: globals.$font-card;
 
                         @media (min-width: 992px) {
-                          font-size: 1rem;
+                            font-size: 1rem;
                         }
+                    }
+
+                    &--bodyXxl{
+                        font-size: 1.75rem;
                     }
                 }
             }

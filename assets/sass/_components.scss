@@ -88,7 +88,7 @@ body {
 
 //componente index
 
-.contvuelo {
+.contflight {
   &__body {
     &_text--title {
       font-size: 1.375rem;
@@ -110,7 +110,7 @@ body {
 
 //componente search
 
-.tvuelo {
+.tflight {
   &__borders {
     &--colormain {
       border-top: solid 1px globals.$color-main !important;
@@ -160,57 +160,16 @@ body {
   }
 }
 
-/* posicion del btn de vuelo */
+/* posicion del btn de flight */
 
-.posicion__btn--vuelo {
+.posicion__btn--flight {
   position: static;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1400px) {
     position: absolute;
   }
 }
 
-//componente modal
-.font {
-
-  &__modal--text-header{
-    font-size: globals.$font-cardSmall ;
-
-    @media (min-width: 900px){
-      font-size: globals.$fon-5;
-    }
-
-  }
-
-  &__modal--title {
-    font-size: 1.188rem;
-    @media (min-width: 992px) {
-      font-size: 1.5rem;
-    }
-  }
-  &__modal--titleSmall {
-    font-size: globals.$fon-5 ;
-    @media (min-width: 992px) {
-      font-size: globals.$fon-5;
-    }
-  }
-  &__modal--text-small {
-    font-size: 0.688rem;
-  }
-
-  &__modal--text-normal{
-    font-size: globals.$fon-7 ;
-
-    @media (min-width: 900px){
-      font-size: globals.$fon-5;
-    }
-
-  }
-
-  &__modal--text-big {
-    font-size: 1.75rem;
-  }
-}
 
 .barra_pading{
   padding-bottom: 0rem;
@@ -322,27 +281,32 @@ input[type="range"]::-webkit-slider-thumb {
         font-size: globals.$font-3;
       }
     }
+
     &--textSmall{
       font-size: 0.8rem;
     }
+
     &--body {
       font-size: globals.$fon-5;
       @media (min-width: 992px) {
         font-size: 1rem;
       }
     }
+
     &--icon{
       font-size: globals.$fon-4;
       @media (min-width: 992px){
         font-size: globals.$font-3;
       }
     }
+
     &--collapse{
       font-size: globals.$fon-5;
       @media (min-width: 992px){
         font-size: globals.$fon-5;
       }
     }
+    
     &--grande {
       font-size: 2rem;
     }

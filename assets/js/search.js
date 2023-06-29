@@ -1,22 +1,22 @@
 // Obtener los elementos del botón y el icono
-const btnToggleIda = document.getElementById('btnIda');
-const iconIda = document.getElementById('iconIda');
+const btnTogglegoTo = document.getElementById('btngoTo');
+const icongoTo = document.getElementById('icongoTo');
 const btnToggleRegreso = document.getElementById('btnToggleRegreso');
 const iconToggleRegreso = document.getElementById('iconToggleRegreso');
 
-// vuelos ida
+// vuelos goTo
 // Agregar un evento de clic al botón
-btnToggleIda.addEventListener('click', function () {
+btnTogglegoTo.addEventListener('click', function () {
   // Verificar la clase actual del icono
-  const isUp = iconIda.classList.contains('fa-chevron-up');
+  const isUp = icongoTo.classList.contains('fa-chevron-up');
 
   // Cambiar la clase del icono según su estado actual
   if (isUp) {
-    iconIda.classList.remove('fa-chevron-up');
-    iconIda.classList.add('fa-chevron-down');
+    icongoTo.classList.remove('fa-chevron-up');
+    icongoTo.classList.add('fa-chevron-down');
   } else {
-    iconIda.classList.remove('fa-chevron-down');
-    iconIda.classList.add('fa-chevron-up');
+    icongoTo.classList.remove('fa-chevron-down');
+    icongoTo.classList.add('fa-chevron-up');
   }
 });
 
