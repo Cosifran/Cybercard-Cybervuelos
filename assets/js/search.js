@@ -3,7 +3,10 @@ const btnTogglegoTo = document.getElementById('btngoTo');
 const icongoTo = document.getElementById('icongoTo');
 const btnToggleRegreso = document.getElementById('btnToggleRegreso');
 const iconToggleRegreso = document.getElementById('iconToggleRegreso');
-
+const btnModalIda = document.getElementById('btnModalIda');
+const iconModalIda = document.getElementById('iconModalIda');
+const btnModalRegreso = document.getElementById('btnModalRegreso');
+const iconModalRegreso = document.getElementById('iconModalRegreso');
 // vuelos goTo
 // Agregar un evento de clic al botón
 btnTogglegoTo.addEventListener('click', function () {
@@ -34,6 +37,37 @@ btnToggleRegreso.addEventListener('click', function () {
     iconToggleRegreso.classList.add('fa-chevron-up');
   }
 });
+
+// modal ida
+btnModalIda.addEventListener('click', function () {
+  // Verificar la clase actual del icono
+  const isUp = iconModalIda.classList.contains('fa-chevron-up');
+
+  // Cambiar la clase del icono según su estado actual
+  if (isUp) {
+    iconModalIda.classList.remove('fa-chevron-up');
+    iconModalIda.classList.add('fa-chevron-down');
+  } else {
+    iconModalIda.classList.remove('fa-chevron-down');
+    iconModalIda.classList.add('fa-chevron-up');
+  }
+});
+
+// modal regreso
+btnModalRegreso.addEventListener('click', function () {
+  // Verificar la clase actual del icono
+  const isUp = iconModalRegreso.classList.contains('fa-chevron-up');
+
+  // Cambiar la clase del icono según su estado actual
+  if (isUp) {
+    iconModalRegreso.classList.remove('fa-chevron-up');
+    iconModalRegreso.classList.add('fa-chevron-down');
+  } else {
+    iconModalRegreso.classList.remove('fa-chevron-down');
+    iconModalRegreso.classList.add('fa-chevron-up');
+  }
+});
+
 
 //funcion para cambiar el border y color de fuente de los botones superiores
 function highlightButton(event) {

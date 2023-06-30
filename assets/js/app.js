@@ -55,11 +55,11 @@ var swiper = new Swiper(".SwiperBusquedaReciente", {
       spaceBetween: 20,
     },
     1200: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 20,
     },
     1400: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 20,
     },
   },
