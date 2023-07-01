@@ -30,41 +30,7 @@ body {
 .mi-input::-webkit-input-placeholder {
     color: $color-input;
 }
-/* tamaño de fuentes */
-.font__cardSmall{
-    font-size: $font-cardSmall;
-}
-.font__small {
-    font-size: $font-6 !important;
-}
 
-.font__medium {
-    font-size: $fon-4 !important;
-}
-
-.font__normalsmall {
-    font-size: $fon-5;
-}
-
-.font__big{
-    font-size: $font-2;
-}
-
-.font_subtitle{
-    font-size: $font-3;
-}
-
-.font__verysmall {
-    font-size: $fon-7;
-}
-
-.font__card{
-    font-size: $font-card;
-}
-
-.t-fs-g {
-    font-size: 4rem;
-}
 
 .removecolorlink{
     color: transparent;

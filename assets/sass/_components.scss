@@ -123,6 +123,7 @@ body {
               }
           }
       }
+
   }
 }
 
@@ -196,6 +197,16 @@ body {
                           font-size: 1rem;
                       }
                   }
+              }
+
+              &_borders{
+                &--colorgreen{
+                  border-top: 1px solid #03A691;
+                }
+
+                &--colorred{
+                  border-top: 1px solid globals.$color-main;
+                }
               }
           }
       }
@@ -323,6 +334,32 @@ body {
   }
 }
 
+//confirmation component
+.confirmation{
+  &__body{
+      &_fonts{
+        &--iconsMd{
+          font-size: 4rem;
+        }
+          &--bodyMd{
+              font-size: globals.$fon-4;
+
+              @media (min-width: 992px) {
+                  font-size: globals.$font-3;
+              }
+          }
+
+          &--bodySm{
+              font-size: 1rem;
+
+              @media (min-width: 992px) {
+                  font-size: globals.$font-3;
+              }
+          }
+      }
+  }
+}
+
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
   --bs-accordion-bg: var(--bs-body-bg);
@@ -370,28 +407,6 @@ body {
   box-shadow: var(--bs-accordion-btn-focus-box-shadow);
 }
 
-//confirmation component
-.confirmation{
-  &__body{
-      &_fonts{
-          &--bodyMd{
-              font-size: globals.$fon-4;
-
-              @media (min-width: 992px) {
-                  font-size: globals.$font-3;
-              }
-          }
-
-          &--bodySm{
-              font-size: 1rem;
-
-              @media (min-width: 992px) {
-                  font-size: globals.$font-3;
-              }
-          }
-      }
-  }
-}
 
 /* posicion del btn de flight */
 

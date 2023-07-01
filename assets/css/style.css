@@ -10,43 +10,6 @@ body {
   color: #adb5bd;
 }
 
-/* tamaño de fuentes */
-.font__cardSmall {
-  font-size: 0.8rem;
-}
-
-.font__small {
-  font-size: 0.625rem !important;
-}
-
-.font__medium {
-  font-size: 1.125rem !important;
-}
-
-.font__normalsmall {
-  font-size: 0.875rem;
-}
-
-.font__big {
-  font-size: 2.375rem;
-}
-
-.font_subtitle {
-  font-size: 1.25rem;
-}
-
-.font__verysmall {
-  font-size: 0.75rem;
-}
-
-.font__card {
-  font-size: 0.938rem;
-}
-
-.t-fs-g {
-  font-size: 4rem;
-}
-
 .removecolorlink {
   color: transparent;
 }
@@ -301,6 +264,12 @@ body {
     font-size: 1rem;
   }
 }
+.search__body_card--flight_borders--colorgreen {
+  border-top: 1px solid #03A691;
+}
+.search__body_card--flight_borders--colorred {
+  border-top: 1px solid #FF0000;
+}
 .search__body_modal--goTo_fonts--tittleXl {
   font-size: 1.25rem;
 }
@@ -408,6 +377,26 @@ body {
   }
 }
 
+.confirmation__body_fonts--iconsMd {
+  font-size: 4rem;
+}
+.confirmation__body_fonts--bodyMd {
+  font-size: 1.125rem;
+}
+@media (min-width: 992px) {
+  .confirmation__body_fonts--bodyMd {
+    font-size: 1.25rem;
+  }
+}
+.confirmation__body_fonts--bodySm {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .confirmation__body_fonts--bodySm {
+    font-size: 1.25rem;
+  }
+}
+
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
   --bs-accordion-bg: var(--bs-body-bg);
@@ -453,23 +442,6 @@ body {
   border-color: var(--bs-accordion-btn-focus-border-color);
   outline: 0;
   box-shadow: var(--bs-accordion-btn-focus-box-shadow);
-}
-
-.confirmation__body_fonts--bodyMd {
-  font-size: 1.125rem;
-}
-@media (min-width: 992px) {
-  .confirmation__body_fonts--bodyMd {
-    font-size: 1.25rem;
-  }
-}
-.confirmation__body_fonts--bodySm {
-  font-size: 1rem;
-}
-@media (min-width: 992px) {
-  .confirmation__body_fonts--bodySm {
-    font-size: 1.25rem;
-  }
 }
 
 /* posicion del btn de flight */
