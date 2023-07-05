@@ -253,6 +253,11 @@ body {
 .search__body_card--flight_fonts--bodyMd {
   font-size: 0.8rem;
 }
+@media (min-width: 320px) {
+  .search__body_card--flight_fonts--bodyMd {
+    font-size: 0.75rem;
+  }
+}
 .search__body_card--flight_fonts--bodySm {
   font-size: 0.75rem;
 }

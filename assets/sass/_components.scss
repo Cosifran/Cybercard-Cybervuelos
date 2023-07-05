@@ -184,6 +184,10 @@ body {
 
                   &--bodyMd {
                       font-size: globals.$font-cardSmall;
+
+                      @media (min-width: 320px) {
+                        font-size: globals.$fon-7;
+                    }
                   }
 
                   &--bodySm {
