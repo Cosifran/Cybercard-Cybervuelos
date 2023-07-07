@@ -1029,7 +1029,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                                 <!-- equipaje -->
                                                 <div
                                                     class="col-5 d-flex justify-content-center align-items-center d-none d-lg-block my-auto">
@@ -2482,7 +2482,6 @@
                                                                                 menores de 12 años.
                                                                             </p>
                                                                         </div>
-
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2522,7 +2521,8 @@
                                                                             <p
                                                                                 class="mb-0 colorprimary search__body_modal--goTo_fonts--tittleLg">
                                                                                 <span class="me-1"><i
-                                                                                        class="fa-solid fa-plane" style="transform:rotate(0.50turn);"></i></span>Regreso
+                                                                                        class="fa-solid fa-plane"
+                                                                                        style="transform:rotate(0.50turn);"></i></span>Regreso
                                                                             </p>
                                                                             <p
                                                                                 class="mb-0 fw-bold search__body_modal--goTo_fonts--tittleXl">
@@ -4278,7 +4278,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
         </main>
@@ -4310,12 +4309,289 @@
                         </div>
 
                         <div class="col-12 col-md-2 my-md-auto d-flex justify-content-center mt-5 mb-5">
-                            <img src="./assets/image/codigo-qr.png" class="img-fluid" alt="codigoqr">
+                            <img src="./assets/image/codigo-qr.png" class="img-fluid mb-4 mb-md-0" alt="codigoqr">
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+
+        <div class="navbar fixed-bottom navbar-light bg-trasparent search__flooter">
+            <div class="container justify-content-center">
+                <div class=" d-flex bottom-0 pb-3 d-lg-none z-0">
+                    <button class="search__flooter_buttonFixed shadow border" tabindex="0" type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#btnFilter">Filtro<span class="ms-3"><i
+                                class="fa-solid fa-filter colorprimary"></i></span></button>
+                </div>
+            </div>
+        </div>
+
+        <!--modal ver filtro modal -->
+        <div class="modal fade asistanceSearch__body_modals" id="btnFilter" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-fullscreen-lg-down modal-dialog-centered">
+                <div class="modal-content border-0">
+                    <div class="modal-body p-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-end">
+                                    <a type="button" class="btn"
+                                        data-bs-dismiss="modal">
+                                        <p
+                                            class="mb-0 text-end search__body_modal--goTo_fonts--tittle">
+                                            <span><i
+                                                    class="fa-solid fa-xmark"></i></span>
+                                        </p>
+                                    </a>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="card border-0 my-3">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <!-- Título del filter -->
+                                                        <p class="my-3  fw-bold search__body_filter_fonts--title">filter</p>
+                                                    </div>
+        
+                                                    <div class="col-12">
+                                                        <!-- Escalas -->
+                                                        <p class="fw-bold mb-1">Escalas</p>
+        
+                                                        <div class="row mb-3">
+                                                            <div class="col-7">
+                                                                <!-- Checkbox: Escala Directa -->
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input inputfoucus" type="checkbox"
+                                                                        value="" id="flexCheckDefault">
+                                                                    <label
+                                                                        class="form-check-label fw-light search__body_filter_fonts--body"
+                                                                        for="flexCheckDefault">
+                                                                        Directo
+                                                                    </label>
+                                                                </div>
+        
+                                                                <!-- Checkbox: 1 Escala -->
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input inputfoucus" type="checkbox"
+                                                                        value="" id="flexCheckChecked" checked>
+                                                                    <label
+                                                                        class="form-check-label fw-light search__body_filter_fonts--body"
+                                                                        for="flexCheckChecked">
+                                                                        1 Escala
+                                                                    </label>
+                                                                </div>
+        
+                                                                <!-- Checkbox: 2 Escalas o más -->
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input inputfoucus" type="checkbox"
+                                                                        value="" id="flexCheckChecked" checked>
+                                                                    <label
+                                                                        class="form-check-label fw-light search__body_filter_fonts--body"
+                                                                        for="flexCheckChecked">
+                                                                        2 Escalas o más
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+        
+                                                            <div class="col-5">
+                                                                <!-- Valores de la escala -->
+                                                                <p
+                                                                    class="mb-1 text-end fw-light search__body_filter_fonts--body">
+                                                                    000
+                                                                </p>
+                                                                <p
+                                                                    class="mb-1 text-end fw-light search__body_filter_fonts--body">
+                                                                    000
+                                                                </p>
+                                                                <p
+                                                                    class="mb-0 text-end fw-light search__body_filter_fonts--body">
+                                                                    000
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <hr>
+        
+                                                    <div class="col-12">
+                                                        <!-- Precio -->
+                                                        <p class=" fw-bold">Precio</p>
+                                                        <input type="range" class="form-range" min="0" max="100"
+                                                            id="customRange2">
+                                                        <div class="row mb-3">
+                                                            <div class="col-6">
+                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">COP
+                                                                    000.000</p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body fw-light">
+                                                                    COP 000.000</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <hr>
+        
+                                                    <div class="col-12">
+                                                        <!-- Horario de salgoTo BAQ - BOG -->
+                                                        <p class="fw-bold ">Horario de salida <span class="ms-2">(BAQ -
+                                                                BOG)</span>
+                                                        </p>
+                                                        <input type="range" class="form-range" min="0" max="100"
+                                                            id="customRange2">
+                                                        <div class="row mb-3">
+                                                            <div class="col-6">
+                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">00:00
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body fw-light">
+                                                                    00:00</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <hr>
+        
+                                                    <div class="col-12">
+                                                        <!-- Horario de salgoTo BOG - BAQ -->
+                                                        <p class="fw-bold ">Horario de salida <span class="ms-1">(BOG -
+                                                                BAQ)</span>
+                                                        </p>
+                                                        <input type="range" class="form-range" min="0" max="100"
+                                                            id="customRange2">
+                                                        <div class="row mb-3">
+                                                            <div class="col-6">
+                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">00:00
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body fw-light">
+                                                                    00:00</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <hr>
+        
+                                                    <div class="col-12">
+                                                        <!-- Duración de flight BAQ - BOG -->
+                                                        <p class="fw-bold ">Duración de vuelo <span class="ms-1">(BAQ -
+                                                                BOG)</span>
+                                                        </p>
+                                                        <input type="range" class="form-range" min="0" max="100"
+                                                            id="customRange2">
+                                                        <div class="row mb-3">
+                                                            <div class="col-6">
+                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">00h 00m
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body fw-light">
+                                                                    00h 00m</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <hr>
+        
+                                                    <div class="col-12">
+                                                        <!-- Duración de flight BOG - BAQ -->
+                                                        <p class="fw-bold ">Duración de vuelo <span class="ms-1">(BOG -
+                                                                BAQ)</span>
+                                                        </p>
+                                                        <input type="range" class="form-range" min="0" max="100"
+                                                            id="customRange2">
+                                                        <div class="row mb-3">
+                                                            <div class="col-6">
+                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">00h 00m
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body fw-light">
+                                                                    00h 00m</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                    <hr>
+        
+                                                    <div class="col-12 mb-3">
+                                                        <!-- Clase -->
+                                                        <p class="fw-bold ">Clase</p>
+        
+                                                        <div class="row">
+                                                            <div class="col-7">
+                                                                <!-- Checkbox: Económica -->
+                                                                <div class="form-check mb-1">
+                                                                    <input class="form-check-input inputfoucus" type="checkbox"
+                                                                        value="" id="flexCheckDefault">
+                                                                    <label
+                                                                        class="form-check-label search__body_filter_fonts--body fw-light"
+                                                                        for="flexCheckDefault">
+                                                                        Económica
+                                                                    </label>
+                                                                </div>
+        
+                                                                <!-- Checkbox: Económica Preferencial -->
+                                                                <div class="form-check mb-1">
+                                                                    <input class="form-check-input inputfoucus" type="checkbox"
+                                                                        value="" id="flexCheckChecked" checked>
+                                                                    <label
+                                                                        class="form-check-label search__body_filter_fonts--body fw-light"
+                                                                        for="flexCheckChecked">
+                                                                        Económica Pref.
+                                                                    </label>
+                                                                </div>
+        
+                                                                <!-- Checkbox: Mixta -->
+                                                                <div class="form-check mb-1">
+                                                                    <input class="form-check-input inputfoucus" type="checkbox"
+                                                                        value="" id="flexCheckChecked" checked>
+                                                                    <label
+                                                                        class="form-check-label search__body_filter_fonts--body fw-light"
+                                                                        for="flexCheckChecked">
+                                                                        Mixta
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+        
+                                                            <div class="col-5">
+                                                                <!-- Valores de la clase -->
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body mb-2 fw-light">
+                                                                    COP
+                                                                    000.000</p>
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body mb-2 fw-light">
+                                                                    COP
+                                                                    000.000</p>
+                                                                <p
+                                                                    class="mb-0 text-end search__body_filter_fonts--body mb-2 fw-light">
+                                                                    COP
+                                                                    000.000</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <script src="./assets/js/search.js" crossorigin="anonymous"></script>
