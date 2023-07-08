@@ -346,6 +346,12 @@ body {
 .search__body_modal--goTo_fonts--bodyXxl {
   font-size: 1.75rem;
 }
+.search__body_modal--filter_fonts--tittleMd {
+  font-size: 1.375rem;
+}
+.search__body_modal--filter_fonts--tittleSm {
+  font-size: 1.125rem;
+}
 .search__flooter_buttonFixed {
   display: inline-flex;
   -webkit-box-align: center;

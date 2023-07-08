@@ -291,6 +291,18 @@ body {
                   }
               }
           }
+
+          &--filter{
+            &_fonts{
+              &--tittleMd{
+                font-size: 1.375rem;
+              }
+
+              &--tittleSm{
+                font-size: globals.$fon-4;
+              }
+            }
+          }
       }
   }
 
