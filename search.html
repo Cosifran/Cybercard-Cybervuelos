@@ -146,8 +146,8 @@
                                                 <p class="fw-bold ">Horario de salida <span class="ms-2">(BAQ -
                                                         BOG)</span>
                                                 </p>
-                                                <input type="range" class="form-range d-none d-lg-block" min="0" max="100"
-                                                    id="customRange2">
+                                                <input type="range" class="form-range d-none d-lg-block" min="0"
+                                                    max="100" id="customRange2">
                                                 <div class="row mb-3">
                                                     <div class="col-6">
                                                         <p class="mb-0 search__body_filter_fonts--body fw-light">00:00
@@ -4320,11 +4320,10 @@
             <div class="container justify-content-center">
                 <div class=" d-flex bottom-0 pb-3 d-lg-none z-0">
                     <button class="search__flooter_buttonFixed shadow border" tabindex="0" type="button"
-                    data-bs-toggle="modal"
-                    data-bs-target="#btnFilter"><span class="me-3"
-                    > <i class="fa-solid fa-filter"></i>
-                </span> Filtrar
-                </button>
+                        data-bs-toggle="modal" data-bs-target="#btnFilter"><span class="me-3"> <i
+                                class="fa-solid fa-filter"></i>
+                        </span> Filtrar
+                    </button>
                 </div>
             </div>
         </div>
@@ -4337,61 +4336,71 @@
                     <div class="modal-body p-0">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 d-flex justify-content-end">
-                                    <a type="button" class="btn"
-                                        data-bs-dismiss="modal">
-                                        <p
-                                            class="mb-0 text-end search__body_modal--goTo_fonts--tittle">
-                                            <span><i
-                                                    class="fa-solid fa-xmark"></i></span>
-                                        </p>
-                                    </a>
-                                </div>
+
 
                                 <div class="col-12">
                                     <div class="row">
-                                        <div class="card border-0 my-3">
+                                        <div class="card border-0 my-3 mt-0">
                                             <div class="card-body">
                                                 <div class="row">
-                                                    <div class="col-12">
+                                                    <div class="col-10 d-flex justify-content-center align-items-center">
                                                         <!-- Título del filter -->
-                                                        <p class="my-3  fw-bold search__body_modal--filter_fonts--tittleMd">Filtro</p>
+                                                        <p
+                                                            class="my-0  fw-bold search__body_modal--filter_fonts--tittleMd text-center">
+                                                            Filtro</p>
+                                                        
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <a type="button" class="btn" data-bs-dismiss="modal">
+                                                            <p
+                                                                class="mb-0 text-end search__body_modal--filter_fonts--tittleMd">
+                                                                <span><i class="fa-solid fa-xmark"></i></span>
+                                                            </p>
+                                                        </a>
                                                     </div>
 
                                                     <hr class="border-2">
-        
+
                                                     <div class="col-12">
                                                         <!-- Escalas -->
-                                                        <p class="fw-bold mb-1 search__body_modal--filter_fonts--tittleSm">Escalas</p>
-        
+                                                        <p
+                                                            class="fw-bold mb-1 search__body_modal--filter_fonts--tittleSm">
+                                                            Escalas</p>
+
                                                         <div class="row mb-3">
                                                             <div class="col-7">
                                                                 <!-- Checkbox: Escala Directa -->
                                                                 <div class="form-check mb-2">
-                                                                    <input class="form-check-input inputfoucus tamañoderadius me-2" type="checkbox"
-                                                                        value="" id="flexCheckDefaultOne">
+                                                                    <input
+                                                                        class="form-check-input inputfoucus tamañoderadius me-2"
+                                                                        type="checkbox" value=""
+                                                                        id="flexCheckDefaultOne">
                                                                     <label
                                                                         class="form-check-label fw-light search__body_filter_fonts--body"
                                                                         for="flexCheckDefaultOne">
                                                                         Directo
                                                                     </label>
                                                                 </div>
-        
+
                                                                 <!-- Checkbox: 1 Escala -->
                                                                 <div class="form-check mb-2">
-                                                                    <input class="form-check-input inputfoucus tamañoderadius me-2" type="checkbox"
-                                                                        value="" id="flexCheckCheckedTwo" checked>
+                                                                    <input
+                                                                        class="form-check-input inputfoucus tamañoderadius me-2"
+                                                                        type="checkbox" value=""
+                                                                        id="flexCheckCheckedTwo" checked>
                                                                     <label
                                                                         class="form-check-label fw-light search__body_filter_fonts--body"
                                                                         for="flexCheckCheckedTwo">
                                                                         1 Escala
                                                                     </label>
                                                                 </div>
-        
+
                                                                 <!-- Checkbox: 2 Escalas o más -->
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input inputfoucus tamañoderadius me-2" type="checkbox"
-                                                                        value="" id="flexCheckCheckedtree" checked>
+                                                                    <input
+                                                                        class="form-check-input inputfoucus tamañoderadius me-2"
+                                                                        type="checkbox" value=""
+                                                                        id="flexCheckCheckedtree" checked>
                                                                     <label
                                                                         class="form-check-label fw-light search__body_filter_fonts--body"
                                                                         for="flexCheckCheckedtree">
@@ -4399,7 +4408,7 @@
                                                                     </label>
                                                                 </div>
                                                             </div>
-        
+
                                                             <div class="col-5">
                                                                 <!-- Valores de la escala -->
                                                                 <p
@@ -4417,17 +4426,20 @@
                                                             </div>
                                                         </div>
                                                     </div>
-        
+
                                                     <hr class="border-2">
-        
+
                                                     <div class="col-12">
                                                         <!-- Precio -->
-                                                        <p class=" fw-bold search__body_modal--filter_fonts--tittleSm">Precio</p>
+                                                        <p class=" fw-bold search__body_modal--filter_fonts--tittleSm">
+                                                            Precio</p>
                                                         <input type="range" class="form-range" min="0" max="100"
                                                             id="customRange2">
                                                         <div class="row mb-3">
                                                             <div class="col-6">
-                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">COP
+                                                                <p
+                                                                    class="mb-0 search__body_filter_fonts--body fw-light">
+                                                                    COP
                                                                     000.000</p>
                                                             </div>
                                                             <div class="col-6">
@@ -4437,229 +4449,312 @@
                                                             </div>
                                                         </div>
                                                     </div>
-        
+
                                                     <hr class="border-2">
-        
-                                                    <div class="col-12">
+
+                                                    <div class="col-12 px-0">
                                                         <!-- Horario de salgoTo BAQ - BOG -->
-                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">Horario de salida <span class="ms-2">(BAQ -
+                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">
+                                                            Horario de salida <span class="ms-2">(BAQ -
                                                                 BOG)</span>
                                                         </p>
                                                         <div class="row g-2 filterBtnSalida">
                                                             <div class="col-6">
-                                                                <a onclick="buttonFilter(event)" href="#" class="btn bg-white border w-100" role="button" type="button">
+                                                                <a onclick="buttonFilter(event)" href="#"
+                                                                    class="btn bg-white border w-100" role="button"
+                                                                    type="button">
                                                                     <p class="text-center mt-2 mb-0">
-                                                                        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z" fill="#3F3F3F"/>
-                                                                            <path d="M10.5115 2.67654L8.20168 0.429921C8.09213 0.323369 7.9473 0.270996 7.80433 0.270996H7.79876C7.62422 0.270996 7.47197 0.350459 7.36984 0.471458C6.53057 1.27511 5.16398 2.59166 5.04329 2.74156C4.8539 2.97633 4.89103 3.32308 5.13242 3.50729C5.2364 3.58675 5.35894 3.62467 5.47963 3.62467C5.64117 3.62467 5.80272 3.55605 5.91041 3.4206C5.99582 3.32488 6.60299 2.73433 7.24172 2.1185V5.34395C7.24172 5.64374 7.49053 5.88574 7.79876 5.88574C8.10699 5.88574 8.3558 5.64374 8.3558 5.34395V2.11308L9.72239 3.44227C9.93963 3.65357 10.2924 3.65357 10.5097 3.44227C10.7269 3.23097 10.7269 2.88784 10.5097 2.67654H10.5115Z" fill="#3F3F3F"/>
-                                                                            </svg>
-                                                                            
+                                                                        <svg width="16" height="13" viewBox="0 0 16 13"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z"
+                                                                                fill="#3F3F3F" />
+                                                                            <path
+                                                                                d="M10.5115 2.67654L8.20168 0.429921C8.09213 0.323369 7.9473 0.270996 7.80433 0.270996H7.79876C7.62422 0.270996 7.47197 0.350459 7.36984 0.471458C6.53057 1.27511 5.16398 2.59166 5.04329 2.74156C4.8539 2.97633 4.89103 3.32308 5.13242 3.50729C5.2364 3.58675 5.35894 3.62467 5.47963 3.62467C5.64117 3.62467 5.80272 3.55605 5.91041 3.4206C5.99582 3.32488 6.60299 2.73433 7.24172 2.1185V5.34395C7.24172 5.64374 7.49053 5.88574 7.79876 5.88574C8.10699 5.88574 8.3558 5.64374 8.3558 5.34395V2.11308L9.72239 3.44227C9.93963 3.65357 10.2924 3.65357 10.5097 3.44227C10.7269 3.23097 10.7269 2.88784 10.5097 2.67654H10.5115Z"
+                                                                                fill="#3F3F3F" />
+                                                                        </svg>
+
                                                                     </p>
-                                                                    <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                         En la mañana
                                                                     </p>
-                                                                    <p class="text-center fw-light mb-1 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-light mb-1 search__body_filter_fonts--body">
                                                                         02:00 - 12:00
                                                                     </p>
                                                                 </a>
                                                             </div>
                                                             <div class="col-6">
-                                                                <a onclick="buttonFilter(event)" href="#" class="btn bg-white border w-100" role="button" type="button">
+                                                                <a onclick="buttonFilter(event)" href="#"
+                                                                    class="btn bg-white border w-100" role="button"
+                                                                    type="button">
                                                                     <p class="text-center mt-2 mb-0">
-                                                                        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z" fill="#3F3F3F"/>
-                                                                            <path d="M5.08418 3.4802L7.39402 5.72682C7.50357 5.83337 7.6484 5.88574 7.79137 5.88574C7.79137 5.88574 7.79509 5.88574 7.79694 5.88574C7.97148 5.88574 8.12374 5.80628 8.22586 5.68528C9.06513 4.88163 10.4317 3.56508 10.5524 3.41518C10.7418 3.18041 10.7047 2.83366 10.4633 2.64945C10.3593 2.56999 10.2368 2.53206 10.1161 2.53206C9.95453 2.53206 9.79299 2.60069 9.68529 2.73614C9.59988 2.83185 8.99271 3.4224 8.35398 4.03824L8.35398 0.812784C8.35398 0.512994 8.10517 0.270994 7.79694 0.270994C7.48872 0.270994 7.23991 0.512994 7.23991 0.812784L7.23991 4.04366L5.87331 2.71447C5.65607 2.50317 5.30328 2.50317 5.08604 2.71447C4.86879 2.92576 4.86879 3.2689 5.08604 3.4802L5.08418 3.4802Z" fill="#3F3F3F"/>
-                                                                            </svg>
+                                                                        <svg width="16" height="13" viewBox="0 0 16 13"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z"
+                                                                                fill="#3F3F3F" />
+                                                                            <path
+                                                                                d="M5.08418 3.4802L7.39402 5.72682C7.50357 5.83337 7.6484 5.88574 7.79137 5.88574C7.79137 5.88574 7.79509 5.88574 7.79694 5.88574C7.97148 5.88574 8.12374 5.80628 8.22586 5.68528C9.06513 4.88163 10.4317 3.56508 10.5524 3.41518C10.7418 3.18041 10.7047 2.83366 10.4633 2.64945C10.3593 2.56999 10.2368 2.53206 10.1161 2.53206C9.95453 2.53206 9.79299 2.60069 9.68529 2.73614C9.59988 2.83185 8.99271 3.4224 8.35398 4.03824L8.35398 0.812784C8.35398 0.512994 8.10517 0.270994 7.79694 0.270994C7.48872 0.270994 7.23991 0.512994 7.23991 0.812784L7.23991 4.04366L5.87331 2.71447C5.65607 2.50317 5.30328 2.50317 5.08604 2.71447C4.86879 2.92576 4.86879 3.2689 5.08604 3.4802L5.08418 3.4802Z"
+                                                                                fill="#3F3F3F" />
+                                                                        </svg>
                                                                     </p>
-                                                                    <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                         En la tarde
                                                                     </p>
-                                                                    <p class="text-center fw-light mb-1 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-light mb-1 search__body_filter_fonts--body">
                                                                         12:00 - 19:00
                                                                     </p>
                                                                 </a>
                                                             </div>
 
                                                             <div class="col-6">
-                                                                <a onclick="buttonFilter(event)" href="#" class="btn bg-white border w-100" role="button" type="button">
+                                                                <a onclick="buttonFilter(event)" href="#"
+                                                                    class="btn bg-white border w-100" role="button"
+                                                                    type="button">
                                                                     <p class="text-center mt-2 mb-0">
-                                                                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M3.76779 1.78205C3.22098 2.69585 2.90591 3.77311 2.90591 4.92541C2.90591 7.55159 4.54114 9.78651 6.82213 10.5985C6.49925 10.6735 6.16335 10.7137 5.81704 10.7137C3.29649 10.7137 1.24986 8.60473 1.24986 5.99732C1.24986 4.15096 2.27578 2.5565 3.7704 1.78205H3.76779ZM5.38479 0.0133988C2.37212 0.241179 0 2.83251 0 5.99732C0 9.31219 2.60387 12 5.81964 12C7.06429 12 8.2152 11.598 9.163 10.912C9.21248 10.8772 9.25935 10.8397 9.30622 10.8048C9.4312 10.7084 9.55098 10.6065 9.66815 10.4993C9.73846 10.435 9.80616 10.3707 9.87386 10.3037C10.0041 10.1724 10.0379 9.96874 9.95458 9.80259C9.87125 9.63645 9.69159 9.54265 9.51192 9.57481C9.41558 9.59089 9.31923 9.60697 9.22289 9.61769C9.0927 9.63109 8.9599 9.6418 8.8245 9.64448C8.79325 9.64448 8.7594 9.64448 8.72816 9.64448C8.72555 9.64448 8.72295 9.64448 8.72035 9.64448C6.1998 9.63912 4.15837 7.53015 4.15837 4.92809C4.15837 3.45958 4.80674 2.14917 5.82745 1.28361C5.85349 1.25949 5.88213 1.23805 5.91077 1.21393C6.01493 1.12818 6.12429 1.04779 6.23626 0.972756C6.31698 0.91916 6.4003 0.865565 6.48623 0.817329C6.64506 0.723537 6.72578 0.535954 6.68673 0.353729C6.64767 0.171505 6.49664 0.034837 6.31437 0.0187584C6.22063 0.0107191 6.1295 0.00535949 6.03576 0.00267973C5.96546 -4.09299e-08 5.89255 0 5.82224 0C5.73632 0 5.65299 0.00267979 5.56706 0.00535956C5.50718 0.00803932 5.44729 0.010719 5.3874 0.0160786L5.38479 0.0133988Z" fill="#3F3F3F"/>
-                                                                            </svg>
+                                                                        <svg width="10" height="12" viewBox="0 0 10 12"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M3.76779 1.78205C3.22098 2.69585 2.90591 3.77311 2.90591 4.92541C2.90591 7.55159 4.54114 9.78651 6.82213 10.5985C6.49925 10.6735 6.16335 10.7137 5.81704 10.7137C3.29649 10.7137 1.24986 8.60473 1.24986 5.99732C1.24986 4.15096 2.27578 2.5565 3.7704 1.78205H3.76779ZM5.38479 0.0133988C2.37212 0.241179 0 2.83251 0 5.99732C0 9.31219 2.60387 12 5.81964 12C7.06429 12 8.2152 11.598 9.163 10.912C9.21248 10.8772 9.25935 10.8397 9.30622 10.8048C9.4312 10.7084 9.55098 10.6065 9.66815 10.4993C9.73846 10.435 9.80616 10.3707 9.87386 10.3037C10.0041 10.1724 10.0379 9.96874 9.95458 9.80259C9.87125 9.63645 9.69159 9.54265 9.51192 9.57481C9.41558 9.59089 9.31923 9.60697 9.22289 9.61769C9.0927 9.63109 8.9599 9.6418 8.8245 9.64448C8.79325 9.64448 8.7594 9.64448 8.72816 9.64448C8.72555 9.64448 8.72295 9.64448 8.72035 9.64448C6.1998 9.63912 4.15837 7.53015 4.15837 4.92809C4.15837 3.45958 4.80674 2.14917 5.82745 1.28361C5.85349 1.25949 5.88213 1.23805 5.91077 1.21393C6.01493 1.12818 6.12429 1.04779 6.23626 0.972756C6.31698 0.91916 6.4003 0.865565 6.48623 0.817329C6.64506 0.723537 6.72578 0.535954 6.68673 0.353729C6.64767 0.171505 6.49664 0.034837 6.31437 0.0187584C6.22063 0.0107191 6.1295 0.00535949 6.03576 0.00267973C5.96546 -4.09299e-08 5.89255 0 5.82224 0C5.73632 0 5.65299 0.00267979 5.56706 0.00535956C5.50718 0.00803932 5.44729 0.010719 5.3874 0.0160786L5.38479 0.0133988Z"
+                                                                                fill="#3F3F3F" />
+                                                                        </svg>
                                                                     </p>
-                                                                    <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                         En la noche
                                                                     </p>
-                                                                    <p class="text-center fw-light mb-1 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-light mb-1 search__body_filter_fonts--body">
                                                                         19:00 - 23:00
                                                                     </p>
                                                                 </a>
                                                             </div>
                                                             <div class="col-6 d-flex">
-                                                                <a onclick="buttonFilter(event)" id="btnBlockFilter" href="#" class="btn bg-white border w-100 d-flex justify-content-center" role="button" type="button">
-                                                                    
-                                                                    <div class="d-flex align-items-center justify-content-center">
-                                                                        <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                <a onclick="buttonFilter(event)" id="btnBlockFilter"
+                                                                    href="#"
+                                                                    class="btn bg-white border w-100 d-flex justify-content-center"
+                                                                    role="button" type="button">
+
+                                                                    <div
+                                                                        class="d-flex align-items-center justify-content-center">
+                                                                        <p
+                                                                            class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                             Personalizado
                                                                         </p>
                                                                     </div>
-                                                                   
+
                                                                 </a>
                                                             </div>
 
                                                             <div id="llegadaOne" class="col-12 d-none">
-                                                                <a href="#" class="btn bg-white border w-100" role="button" type="button">
-                                                                  <div class="row">
-                                                                    <div class="col-6">
-                                                                        <p class="fw-light mb-0 text-start search__body_filter_fonts--body">
-                                                                            Salida después de
-                                                                        </p>
-                                                                       </div>
-                                                                       <div class="col-6">
-                                                                        <p class="mb-0 text-end">
-                                                                            <i class="fa-solid fa-sort-down" style="color: #787878;"></i>
+                                                                <a href="#" class="btn bg-white border w-100"
+                                                                    role="button" type="button">
+                                                                    <div class="row">
+                                                                        <div class="col-6">
+                                                                            <p
+                                                                                class="fw-light mb-0 text-start search__body_filter_fonts--body">
+                                                                                Salida después de
                                                                             </p>
-                                                                       </div>
-                                                                  </div>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <p class="mb-0 text-end">
+                                                                                <i class="fa-solid fa-sort-down"
+                                                                                    style="color: #787878;"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
                                                                 </a>
                                                             </div>
 
                                                             <div id="salidaOne" class="col-12 d-none">
-                                                                <a href="#" class="btn bg-white border w-100" role="button" type="button">
-                                                                  <div class="row">
-                                                                    <div class="col-6">
-                                                                        <p class="fw-light mb-0 text-start search__body_filter_fonts--body">
-                                                                            Salida antes de
-                                                                        </p>
-                                                                       </div>
-                                                                       <div class="col-6">
-                                                                        <p class="mb-0 text-end">
-                                                                            <i class="fa-solid fa-sort-down" style="color: #787878;"></i>
+                                                                <a href="#" class="btn bg-white border w-100"
+                                                                    role="button" type="button">
+                                                                    <div class="row">
+                                                                        <div class="col-6">
+                                                                            <p
+                                                                                class="fw-light mb-0 text-start search__body_filter_fonts--body">
+                                                                                Salida antes de
                                                                             </p>
-                                                                       </div>
-                                                                  </div>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <p class="mb-0 text-end">
+                                                                                <i class="fa-solid fa-sort-down"
+                                                                                    style="color: #787878;"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-        
+
                                                     <hr class="border-2 mt-3">
-        
-                                                    <div class="col-12">
+
+                                                    <div class="col-12 px-0">
                                                         <!-- Horario de salgoTo BOG - BAQ -->
-                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">Horario de salida <span class="ms-1">(BOG -
+                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">
+                                                            Horario de salida <span class="ms-1">(BOG -
                                                                 BAQ)</span>
                                                         </p>
                                                         <div class="row g-2 filterBtnEntrada">
                                                             <div class="col-6">
-                                                                <a onclick="buttonFilterEntrada(event)" href="#" class="btn bg-white border w-100" role="button" type="button">
+                                                                <a onclick="buttonFilterEntrada(event)" href="#"
+                                                                    class="btn bg-white border w-100" role="button"
+                                                                    type="button">
                                                                     <p class="text-center mt-2 mb-0">
-                                                                        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z" fill="#3F3F3F"/>
-                                                                            <path d="M10.5115 2.67654L8.20168 0.429921C8.09213 0.323369 7.9473 0.270996 7.80433 0.270996H7.79876C7.62422 0.270996 7.47197 0.350459 7.36984 0.471458C6.53057 1.27511 5.16398 2.59166 5.04329 2.74156C4.8539 2.97633 4.89103 3.32308 5.13242 3.50729C5.2364 3.58675 5.35894 3.62467 5.47963 3.62467C5.64117 3.62467 5.80272 3.55605 5.91041 3.4206C5.99582 3.32488 6.60299 2.73433 7.24172 2.1185V5.34395C7.24172 5.64374 7.49053 5.88574 7.79876 5.88574C8.10699 5.88574 8.3558 5.64374 8.3558 5.34395V2.11308L9.72239 3.44227C9.93963 3.65357 10.2924 3.65357 10.5097 3.44227C10.7269 3.23097 10.7269 2.88784 10.5097 2.67654H10.5115Z" fill="#3F3F3F"/>
-                                                                            </svg>
-                                                                            
+                                                                        <svg width="16" height="13" viewBox="0 0 16 13"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z"
+                                                                                fill="#3F3F3F" />
+                                                                            <path
+                                                                                d="M10.5115 2.67654L8.20168 0.429921C8.09213 0.323369 7.9473 0.270996 7.80433 0.270996H7.79876C7.62422 0.270996 7.47197 0.350459 7.36984 0.471458C6.53057 1.27511 5.16398 2.59166 5.04329 2.74156C4.8539 2.97633 4.89103 3.32308 5.13242 3.50729C5.2364 3.58675 5.35894 3.62467 5.47963 3.62467C5.64117 3.62467 5.80272 3.55605 5.91041 3.4206C5.99582 3.32488 6.60299 2.73433 7.24172 2.1185V5.34395C7.24172 5.64374 7.49053 5.88574 7.79876 5.88574C8.10699 5.88574 8.3558 5.64374 8.3558 5.34395V2.11308L9.72239 3.44227C9.93963 3.65357 10.2924 3.65357 10.5097 3.44227C10.7269 3.23097 10.7269 2.88784 10.5097 2.67654H10.5115Z"
+                                                                                fill="#3F3F3F" />
+                                                                        </svg>
+
                                                                     </p>
-                                                                    <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                         En la mañana
                                                                     </p>
-                                                                    <p class="text-center fw-light mb-1 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-light mb-1 search__body_filter_fonts--body">
                                                                         02:00 - 12:00
                                                                     </p>
                                                                 </a>
                                                             </div>
                                                             <div class="col-6">
-                                                                <a onclick="buttonFilterEntrada(event)" href="#" class="btn bg-white border w-100" role="button" type="button">
+                                                                <a onclick="buttonFilterEntrada(event)" href="#"
+                                                                    class="btn bg-white border w-100" role="button"
+                                                                    type="button">
                                                                     <p class="text-center mt-2 mb-0">
-                                                                        <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z" fill="#3F3F3F"/>
-                                                                            <path d="M5.08418 3.4802L7.39402 5.72682C7.50357 5.83337 7.6484 5.88574 7.79137 5.88574C7.79137 5.88574 7.79509 5.88574 7.79694 5.88574C7.97148 5.88574 8.12374 5.80628 8.22586 5.68528C9.06513 4.88163 10.4317 3.56508 10.5524 3.41518C10.7418 3.18041 10.7047 2.83366 10.4633 2.64945C10.3593 2.56999 10.2368 2.53206 10.1161 2.53206C9.95453 2.53206 9.79299 2.60069 9.68529 2.73614C9.59988 2.83185 8.99271 3.4224 8.35398 4.03824L8.35398 0.812784C8.35398 0.512994 8.10517 0.270994 7.79694 0.270994C7.48872 0.270994 7.23991 0.512994 7.23991 0.812784L7.23991 4.04366L5.87331 2.71447C5.65607 2.50317 5.30328 2.50317 5.08604 2.71447C4.86879 2.92576 4.86879 3.2689 5.08604 3.4802L5.08418 3.4802Z" fill="#3F3F3F"/>
-                                                                            </svg>
+                                                                        <svg width="16" height="13" viewBox="0 0 16 13"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M14.4517 11.5313H12.8159C14.0247 9.79934 14.0247 9.77587 14.0247 9.58804C14.0247 9.14378 13.6626 9.0607 13.1613 8.94331C12.8976 8.88191 12.5467 8.80606 12.1939 8.73021C11.8039 8.64714 11.4122 8.56406 11.1429 8.50808L10.584 6.16574C10.5432 5.99417 10.4188 5.85331 10.2517 5.78649C10.0846 5.71967 9.89332 5.73773 9.74106 5.83344L7.797 7.04705L5.85295 5.83344C5.70069 5.73773 5.50944 5.72147 5.34233 5.78649C5.17522 5.85331 5.05082 5.99417 5.00997 6.16574L4.45108 8.50808C4.18184 8.56406 3.79192 8.64533 3.40014 8.73021C3.0492 8.80606 2.69641 8.88191 2.43275 8.94331C1.93142 9.0589 1.56935 9.14378 1.56935 9.58804C1.56935 9.77587 1.56935 9.79934 2.77811 11.5313H1.14786C0.83963 11.5313 0.59082 11.7733 0.59082 12.0731C0.59082 12.3728 0.83963 12.6148 1.14786 12.6148H14.4517C14.7599 12.6148 15.0088 12.3728 15.0088 12.0731C15.0088 11.7733 14.7599 11.5313 14.4517 11.5313ZM3.01764 9.92395C3.55239 9.80476 4.31925 9.64222 5.03225 9.49594C5.24392 9.4526 5.41104 9.29367 5.45931 9.08779L5.91979 7.15902L7.49992 8.14508C7.68374 8.25885 7.91955 8.25885 8.10152 8.14508L9.68164 7.15902L10.1421 9.08779C10.1904 9.29187 10.3575 9.45079 10.5692 9.49594C11.2822 9.64222 12.049 9.80476 12.5838 9.92395C12.2923 10.3502 11.8764 10.9479 11.4697 11.5313H10.6602C10.4856 10.1461 9.27129 9.06793 7.80072 9.06793C6.33014 9.06793 5.11581 10.1443 4.94127 11.5313H4.13171C3.72507 10.9497 3.31101 10.3502 3.0195 9.92395H3.01764ZM9.53496 11.5313H6.06462C6.22802 10.7457 6.94288 10.1515 7.79886 10.1515C8.65484 10.1515 9.3697 10.7457 9.5331 11.5313H9.53496Z"
+                                                                                fill="#3F3F3F" />
+                                                                            <path
+                                                                                d="M5.08418 3.4802L7.39402 5.72682C7.50357 5.83337 7.6484 5.88574 7.79137 5.88574C7.79137 5.88574 7.79509 5.88574 7.79694 5.88574C7.97148 5.88574 8.12374 5.80628 8.22586 5.68528C9.06513 4.88163 10.4317 3.56508 10.5524 3.41518C10.7418 3.18041 10.7047 2.83366 10.4633 2.64945C10.3593 2.56999 10.2368 2.53206 10.1161 2.53206C9.95453 2.53206 9.79299 2.60069 9.68529 2.73614C9.59988 2.83185 8.99271 3.4224 8.35398 4.03824L8.35398 0.812784C8.35398 0.512994 8.10517 0.270994 7.79694 0.270994C7.48872 0.270994 7.23991 0.512994 7.23991 0.812784L7.23991 4.04366L5.87331 2.71447C5.65607 2.50317 5.30328 2.50317 5.08604 2.71447C4.86879 2.92576 4.86879 3.2689 5.08604 3.4802L5.08418 3.4802Z"
+                                                                                fill="#3F3F3F" />
+                                                                        </svg>
                                                                     </p>
-                                                                    <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                         En la tarde
                                                                     </p>
-                                                                    <p class="text-center fw-light mb-1 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-light mb-1 search__body_filter_fonts--body">
                                                                         12:00 - 19:00
                                                                     </p>
                                                                 </a>
                                                             </div>
 
                                                             <div class="col-6">
-                                                                <a onclick="buttonFilterEntrada(event)" href="#" class="btn bg-white border w-100" role="button" type="button">
+                                                                <a onclick="buttonFilterEntrada(event)" href="#"
+                                                                    class="btn bg-white border w-100" role="button"
+                                                                    type="button">
                                                                     <p class="text-center mt-2 mb-0">
-                                                                        <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M3.76779 1.78205C3.22098 2.69585 2.90591 3.77311 2.90591 4.92541C2.90591 7.55159 4.54114 9.78651 6.82213 10.5985C6.49925 10.6735 6.16335 10.7137 5.81704 10.7137C3.29649 10.7137 1.24986 8.60473 1.24986 5.99732C1.24986 4.15096 2.27578 2.5565 3.7704 1.78205H3.76779ZM5.38479 0.0133988C2.37212 0.241179 0 2.83251 0 5.99732C0 9.31219 2.60387 12 5.81964 12C7.06429 12 8.2152 11.598 9.163 10.912C9.21248 10.8772 9.25935 10.8397 9.30622 10.8048C9.4312 10.7084 9.55098 10.6065 9.66815 10.4993C9.73846 10.435 9.80616 10.3707 9.87386 10.3037C10.0041 10.1724 10.0379 9.96874 9.95458 9.80259C9.87125 9.63645 9.69159 9.54265 9.51192 9.57481C9.41558 9.59089 9.31923 9.60697 9.22289 9.61769C9.0927 9.63109 8.9599 9.6418 8.8245 9.64448C8.79325 9.64448 8.7594 9.64448 8.72816 9.64448C8.72555 9.64448 8.72295 9.64448 8.72035 9.64448C6.1998 9.63912 4.15837 7.53015 4.15837 4.92809C4.15837 3.45958 4.80674 2.14917 5.82745 1.28361C5.85349 1.25949 5.88213 1.23805 5.91077 1.21393C6.01493 1.12818 6.12429 1.04779 6.23626 0.972756C6.31698 0.91916 6.4003 0.865565 6.48623 0.817329C6.64506 0.723537 6.72578 0.535954 6.68673 0.353729C6.64767 0.171505 6.49664 0.034837 6.31437 0.0187584C6.22063 0.0107191 6.1295 0.00535949 6.03576 0.00267973C5.96546 -4.09299e-08 5.89255 0 5.82224 0C5.73632 0 5.65299 0.00267979 5.56706 0.00535956C5.50718 0.00803932 5.44729 0.010719 5.3874 0.0160786L5.38479 0.0133988Z" fill="#3F3F3F"/>
-                                                                            </svg>
+                                                                        <svg width="10" height="12" viewBox="0 0 10 12"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M3.76779 1.78205C3.22098 2.69585 2.90591 3.77311 2.90591 4.92541C2.90591 7.55159 4.54114 9.78651 6.82213 10.5985C6.49925 10.6735 6.16335 10.7137 5.81704 10.7137C3.29649 10.7137 1.24986 8.60473 1.24986 5.99732C1.24986 4.15096 2.27578 2.5565 3.7704 1.78205H3.76779ZM5.38479 0.0133988C2.37212 0.241179 0 2.83251 0 5.99732C0 9.31219 2.60387 12 5.81964 12C7.06429 12 8.2152 11.598 9.163 10.912C9.21248 10.8772 9.25935 10.8397 9.30622 10.8048C9.4312 10.7084 9.55098 10.6065 9.66815 10.4993C9.73846 10.435 9.80616 10.3707 9.87386 10.3037C10.0041 10.1724 10.0379 9.96874 9.95458 9.80259C9.87125 9.63645 9.69159 9.54265 9.51192 9.57481C9.41558 9.59089 9.31923 9.60697 9.22289 9.61769C9.0927 9.63109 8.9599 9.6418 8.8245 9.64448C8.79325 9.64448 8.7594 9.64448 8.72816 9.64448C8.72555 9.64448 8.72295 9.64448 8.72035 9.64448C6.1998 9.63912 4.15837 7.53015 4.15837 4.92809C4.15837 3.45958 4.80674 2.14917 5.82745 1.28361C5.85349 1.25949 5.88213 1.23805 5.91077 1.21393C6.01493 1.12818 6.12429 1.04779 6.23626 0.972756C6.31698 0.91916 6.4003 0.865565 6.48623 0.817329C6.64506 0.723537 6.72578 0.535954 6.68673 0.353729C6.64767 0.171505 6.49664 0.034837 6.31437 0.0187584C6.22063 0.0107191 6.1295 0.00535949 6.03576 0.00267973C5.96546 -4.09299e-08 5.89255 0 5.82224 0C5.73632 0 5.65299 0.00267979 5.56706 0.00535956C5.50718 0.00803932 5.44729 0.010719 5.3874 0.0160786L5.38479 0.0133988Z"
+                                                                                fill="#3F3F3F" />
+                                                                        </svg>
                                                                     </p>
-                                                                    <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                         En la noche
                                                                     </p>
-                                                                    <p class="text-center fw-light mb-1 search__body_filter_fonts--body">
+                                                                    <p
+                                                                        class="text-center fw-light mb-1 search__body_filter_fonts--body">
                                                                         19:00 - 23:00
                                                                     </p>
                                                                 </a>
                                                             </div>
                                                             <div class="col-6 d-flex">
-                                                                <a onclick="buttonFilterEntrada(event)" href="#" id="btnBlockFilterEntrada" class="btn bg-white border w-100 d-flex justify-content-center" role="button" type="button">
-                                                                    
-                                                                    <div class="d-flex align-items-center justify-content-center">
-                                                                        <p class="text-center fw-bold mb-0 search__body_filter_fonts--body">
+                                                                <a onclick="buttonFilterEntrada(event)" href="#"
+                                                                    id="btnBlockFilterEntrada"
+                                                                    class="btn bg-white border w-100 d-flex justify-content-center"
+                                                                    role="button" type="button">
+
+                                                                    <div
+                                                                        class="d-flex align-items-center justify-content-center">
+                                                                        <p
+                                                                            class="text-center fw-bold mb-0 search__body_filter_fonts--body">
                                                                             Personalizado
                                                                         </p>
                                                                     </div>
-                                                                   
+
                                                                 </a>
                                                             </div>
 
                                                             <div id="llegadaTwo" class="col-12 d-none">
-                                                                <a href="#" class="btn bg-white border w-100" role="button" type="button">
-                                                                  <div class="row">
-                                                                    <div class="col-6">
-                                                                        <p class="fw-light mb-0 text-start search__body_filter_fonts--body">
-                                                                            Salida después de
-                                                                        </p>
-                                                                       </div>
-                                                                       <div class="col-6">
-                                                                        <p class="mb-0 text-end">
-                                                                            <i class="fa-solid fa-sort-down" style="color: #787878;"></i>
+                                                                <a href="#" class="btn bg-white border w-100"
+                                                                    role="button" type="button">
+                                                                    <div class="row">
+                                                                        <div class="col-6">
+                                                                            <p
+                                                                                class="fw-light mb-0 text-start search__body_filter_fonts--body">
+                                                                                Salida después de
                                                                             </p>
-                                                                       </div>
-                                                                  </div>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <p class="mb-0 text-end">
+                                                                                <i class="fa-solid fa-sort-down"
+                                                                                    style="color: #787878;"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
                                                                 </a>
                                                             </div>
 
                                                             <div id="salidaTwo" class="col-12 d-none">
-                                                                <a href="#" class="btn bg-white border w-100" role="button" type="button">
-                                                                  <div class="row">
-                                                                    <div class="col-6">
-                                                                        <p class="fw-light mb-0 text-start search__body_filter_fonts--body">
-                                                                            Salida antes de
-                                                                        </p>
-                                                                       </div>
-                                                                       <div class="col-6">
-                                                                        <p class="mb-0 text-end">
-                                                                            <i class="fa-solid fa-sort-down" style="color: #787878;"></i>
+                                                                <a href="#" class="btn bg-white border w-100"
+                                                                    role="button" type="button">
+                                                                    <div class="row">
+                                                                        <div class="col-6">
+                                                                            <p
+                                                                                class="fw-light mb-0 text-start search__body_filter_fonts--body">
+                                                                                Salida antes de
                                                                             </p>
-                                                                       </div>
-                                                                  </div>
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <p class="mb-0 text-end">
+                                                                                <i class="fa-solid fa-sort-down"
+                                                                                    style="color: #787878;"></i>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-        
+
                                                     <hr class="border-2 mt-3">
-        
+
                                                     <div class="col-12">
                                                         <!-- Duración de flight BAQ - BOG -->
-                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">Duración de vuelo <span class="ms-1">(BAQ -
+                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">
+                                                            Duración de vuelo <span class="ms-1">(BAQ -
                                                                 BOG)</span>
                                                         </p>
                                                         <input type="range" class="form-range" min="0" max="100"
                                                             id="customRange2">
                                                         <div class="row mb-3">
                                                             <div class="col-6">
-                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">00h 00m
+                                                                <p
+                                                                    class="mb-0 search__body_filter_fonts--body fw-light">
+                                                                    00h 00m
                                                                 </p>
                                                             </div>
                                                             <div class="col-6">
@@ -4669,19 +4764,22 @@
                                                             </div>
                                                         </div>
                                                     </div>
-        
+
                                                     <hr class="border-2">
-        
+
                                                     <div class="col-12">
                                                         <!-- Duración de flight BOG - BAQ -->
-                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">Duración de vuelo <span class="ms-1">(BOG -
+                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">
+                                                            Duración de vuelo <span class="ms-1">(BOG -
                                                                 BAQ)</span>
                                                         </p>
                                                         <input type="range" class="form-range" min="0" max="100"
                                                             id="customRange2">
                                                         <div class="row mb-3">
                                                             <div class="col-6">
-                                                                <p class="mb-0 search__body_filter_fonts--body fw-light">00h 00m
+                                                                <p
+                                                                    class="mb-0 search__body_filter_fonts--body fw-light">
+                                                                    00h 00m
                                                                 </p>
                                                             </div>
                                                             <div class="col-6">
@@ -4691,41 +4789,48 @@
                                                             </div>
                                                         </div>
                                                     </div>
-        
+
                                                     <hr class="border-2">
-        
+
                                                     <div class="col-12 mb-3">
                                                         <!-- Clase -->
-                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">Clase</p>
-        
+                                                        <p class="fw-bold search__body_modal--filter_fonts--tittleSm">
+                                                            Clase</p>
+
                                                         <div class="row">
                                                             <div class="col-7">
                                                                 <!-- Checkbox: Económica -->
                                                                 <div class="form-check mb-2">
-                                                                    <input class="form-check-input inputfoucus tamañoderadius me-2" type="checkbox"
-                                                                        value="" id="flexCheckDefaultDos">
+                                                                    <input
+                                                                        class="form-check-input inputfoucus tamañoderadius me-2"
+                                                                        type="checkbox" value=""
+                                                                        id="flexCheckDefaultDos">
                                                                     <label
                                                                         class="form-check-label search__body_filter_fonts--body fw-light"
                                                                         for="flexCheckDefaultDos">
                                                                         Económica
                                                                     </label>
                                                                 </div>
-        
+
                                                                 <!-- Checkbox: Económica Preferencial -->
                                                                 <div class="form-check mb-2">
-                                                                    <input class="form-check-input inputfoucus tamañoderadius me-2" type="checkbox"
-                                                                        value="" id="flexCheckCheckedDos" checked>
+                                                                    <input
+                                                                        class="form-check-input inputfoucus tamañoderadius me-2"
+                                                                        type="checkbox" value=""
+                                                                        id="flexCheckCheckedDos" checked>
                                                                     <label
                                                                         class="form-check-label search__body_filter_fonts--body fw-light"
                                                                         for="flexCheckCheckedDos">
                                                                         Económica Pref.
                                                                     </label>
                                                                 </div>
-        
+
                                                                 <!-- Checkbox: Mixta -->
                                                                 <div class="form-check mb-1">
-                                                                    <input class="form-check-input inputfoucus tamañoderadius me-2" type="checkbox"
-                                                                        value="" id="flexCheckCheckedTres" checked>
+                                                                    <input
+                                                                        class="form-check-input inputfoucus tamañoderadius me-2"
+                                                                        type="checkbox" value=""
+                                                                        id="flexCheckCheckedTres" checked>
                                                                     <label
                                                                         class="form-check-label search__body_filter_fonts--body fw-light"
                                                                         for="flexCheckCheckedTres">
@@ -4733,7 +4838,7 @@
                                                                     </label>
                                                                 </div>
                                                             </div>
-        
+
                                                             <div class="col-5">
                                                                 <!-- Valores de la clase -->
                                                                 <p
